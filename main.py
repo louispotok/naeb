@@ -6,7 +6,7 @@ Three tables:
 """
 import os
 import requests
-from tqdm import trange
+from tqdm import trange, tqdm
 import time 
 
 BASE_URL = "http://naeb.brit.org/"
@@ -24,8 +24,9 @@ def main():
         folder = ensure_folder(name)
         latest = get_latest(folder)
         u = BASE_URL + url
-        for i in trange(latest, N+1):
+        for i in trange(latest, latest+5):
             u1 = u.format(i)
+            start = time.time()
             resp = requests.get(u1, headers=headers)
             if resp.status_code != 200:
                 print(resp.status_code, url)
@@ -33,7 +34,10 @@ def main():
             fp = os.path.join(folder, f'{i:05.0f}.html')
             with open(fp, 'w') as f:
                 f.write(resp.text)
-            time.sleep(.5)
+            end = time.time()
+            delay = max(0, (1+start-end))
+            tqdm.write(f"{delay=}")
+            time.sleep(delay)
 
 def ensure_folder(name):
     base = "data/"
