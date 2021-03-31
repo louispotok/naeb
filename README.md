@@ -1,0 +1,6 @@
+- [x]: Scrape raw html files
+- [ ]: move to `data/raw` directory and zip
+- [ ]: Extract to json (code is written)
+- [ ]: design schema
+- [ ]: create database
+- [ ]: write code to normalize json data and insert into db
