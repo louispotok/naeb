@@ -1,25 +1,40 @@
 from bs4 import BeautifulSoup
 import re
+import json
 
-def extract_tribes():
+def main():
+    tribes = process('tribes', extract_tribes)
+    species = process('species', extract_species)
+    uses = process('uses', extract_uses)
+
+
+def process(dirname, extract_fn):
+    vals = extract(dirname, extract_fn)
+    dump(dirname, vals)
+
+def dump(dirname, vals):
+    fp = "data/processed/{dirname}.json"
+    with open(fp, 'w') as f:
+        json.dump(vals, f)
+
+def extract(dirname, fn):
+    results = []
+    for fp in os.listdir(f"data/{dirname}"):
+        with open(fp, 'r') as f:
+            doc = f.read()
+        soup = BeautifulSoup(html_doc, 'html.parser')
+        results.append(fn(soup))
+    return results
+
+def extract_tribes(soup):
     """
     Just a list of species and uses
     """
-    fp = "data/tribes/00001.html"
-    with open(fp, 'r') as f:
-        html_doc = f.read()
-    soup = BeautifulSoup(html_doc, 'html.parser')
     body = soup.body
-    
     tribe_name = body.h3.text.split(': ')[1]
-
     return {'tribe_name': tribe_name}
 
-def extract_species():
-    fp = "data/species/00001.html"
-    with open(fp, 'r') as f:
-        html_doc = f.read()
-    soup = BeautifulSoup(html_doc, 'html.parser')
+def extract_species(soup):
     body = soup.body
     species_name = body.h3.text
     
@@ -37,11 +52,7 @@ def search_and_get_first_group(rawpat, text):
     pat = re.compile(rawpat)
     return pat.search(text.find(string=pat)).groups()[0]
 
-def extract_uses():
-    fp = "data/uses/00001.html"
-    with open(fp, 'r') as f:
-        html_doc = f.read()
-    soup = BeautifulSoup(html_doc, 'html.parser')
+def extract_uses(soup):
     body = soup.body
 
     doc_by = body.find('strong').next_sibling.next_sibling.strip()
@@ -73,3 +84,7 @@ def extract_uses():
                 'family_apg': family_apg 
                 }
             }
+
+
+if __name__ == '__main__': 
+    main()
