@@ -17,6 +17,7 @@ SCHEMA = [
         ('uses', 'uses/{}', 44961)
         ]
 headers = {}
+MAX_DELAY = 0.5 # seconds
 
 def main():
     for (name, url, N) in SCHEMA:
@@ -35,7 +36,7 @@ def main():
             with open(fp, 'w') as f:
                 f.write(resp.text)
             end = time.time()
-            delay = max(0, (1+start-end))
+            delay = max(0, (MAX_DELAY+start-end))
             tqdm.write(f"{delay=}")
             time.sleep(delay)
 
