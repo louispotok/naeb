@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import re
 
 def extract_tribes():
     """
@@ -32,4 +33,43 @@ def extract_species():
 
     return {'name': species_name, 'common_names';common_names, 'usda_code':usda_code}
 
+def search_and_get_first_group(rawpat, text):
+    pat = re.compile(rawpat)
+    return pat.search(text.find(string=pat)).groups()[0]
 
+def extract_uses():
+    fp = "data/uses/00001.html"
+    with open(fp, 'r') as f:
+        html_doc = f.read()
+    soup = BeautifulSoup(html_doc, 'html.parser')
+    body = soup.body
+
+    doc_by = body.find('strong').next_sibling.next_sibling.strip()
+    
+    sciname = search_and_get_first_group('Scientific name: (.*)', body)
+    tribe_name = search_and_get_first_group('Native American Tribe: (.*)', body)
+    family_name = search_and_get_first_group('Family: (.*)', body)
+    family_apg = search_and_get_first_group('Family (APG): (.*)', body)
+    notes = search_and_get_first_group('Notes: (.*)', body)
+    use_cat = search_and_get_first_group('Use category: (.*)', body)
+    use_subcat = search_and_get_first_group('Use sub-category: (.*)', body)
+    common_names = search_and_get_first_group('Common names: (.*)', body)
+    usda_code = search_and_get_first_group('USDA symbol: (.*) ', body)
+
+    
+    return {
+            'uses': {
+                'tribe_name': tribe_name,
+                'use_category': use_cat,
+                'use_subcategory': use_subcat,
+                'documented_by': doc_by,
+                'notes': notes
+                },
+            'species': {
+                'usda_code': usda_code,
+                'scientific_name': sciname,
+                'common_names': common_names,
+                'family': family_name,
+                'family_apg': family_apg 
+                }
+            }
