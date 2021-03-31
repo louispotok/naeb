@@ -25,7 +25,7 @@ def main():
         folder = ensure_folder(name)
         latest = get_latest(folder)
         u = BASE_URL + url
-        for i in trange(latest, latest+5):
+        for i in trange(latest, N+1):
             u1 = u.format(i)
             start = time.time()
             resp = requests.get(u1, headers=headers)
@@ -37,7 +37,6 @@ def main():
                 f.write(resp.text)
             end = time.time()
             delay = max(0, (MAX_DELAY+start-end))
-            tqdm.write(f"{delay=}")
             time.sleep(delay)
 
 def ensure_folder(name):
