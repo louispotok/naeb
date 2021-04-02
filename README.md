@@ -1,6 +1,9 @@
 - [x]: Scrape raw html files
-- [ ]: move to `data/raw` directory and zip
-- [ ]: Extract to json (code is written)
-- [ ]: design schema
+- [x]: move to `data/raw` directory and zip
+- [x]: design schema
+- [x]: create makefile
+- [x]: Extract to unnormalized csv 
+- [ ]: Makefile still a bit funky - should normalize depend on actual files?
+- [ ]: normalize data
 - [ ]: create database
 - [ ]: write code to normalize json data and insert into db
