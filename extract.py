@@ -10,7 +10,7 @@ EXTRACTED_PATH = "data/extracted/"
 COL_NAMES = {
         'tribes': ['id', 'tribe_name'],
         'species': ['id', 'name','common_names','usda_code'],
-        'uses': ['id','tribe_name','species_scientific_name'
+        'uses': ['id','tribe_name','species_name'
             ,'use_category'
             ,'use_subcategory'
             ,'documented_by'
@@ -116,7 +116,7 @@ def extract_uses(soup, id_):
     return {
             'id': id_,
             'tribe_name': tribe_name,
-            'species_scientific_name': sciname,
+            'species_name': sciname,
             'use_category': use_cat,
             'use_subcategory': use_subcat,
             'documented_by': doc_by,

@@ -13,8 +13,7 @@ CREATE TABLE IF NOT EXISTS species (
         name TEXT,
         common_names TEXT,
         usda_code TEXT,
-        sci_name TEXT,
-        family_name TEXT,
+        family TEXT,
         family_apg TEXT
         );
 

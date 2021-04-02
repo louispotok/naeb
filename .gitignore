@@ -2,3 +2,4 @@ venv/
 data/*
 !data/raw.tar.gz
 .unzipped
+*.sqlite3
