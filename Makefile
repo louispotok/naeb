@@ -22,7 +22,7 @@ clean:
 	# remove intermediate files
 	rm -rf data/raw/
 	rm -rf data/extracted/*
-	rm -rf data/from_db/*.csv
+	rm -rf data/naeb_dump/*.csv
 	rm -rf data/normalized/
 	rm -f .unzipped
 	rm -f naeb.sqlite3
