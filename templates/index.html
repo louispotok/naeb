@@ -1,0 +1,26 @@
+{% extends "default:index.html" %}
+
+{% block content %}
+<h1>Native American Ethnobotany</h1>
+<h2>About this site</h2>
+<p>This site provides an alternate interface on the Native American Ethnobotany (NAEB) database, as found <a href="http://naeb.brit.org/">here</a>. 
+It has been reconstructed from the publicly available NAEB site, and no guarantees are made as to its accuracy.
+This site has no affiliation with the original authors, it is provided in the hope of being useful to future researchers.
+The NAEB database is due to <a href="https://en.wikipedia.org/wiki/Daniel_Moerman">Daniel Moerman</a>, who deserves all credit for this research.
+You may be interested in Professor Moerman's book <a href="https://www.amazon.com/Native-American-Ethnobotany-Daniel-Moerman/dp/0881924539">Native American Ethnobotany</a>.
+</p>
+<p>
+Unlike the main NAEB site, this website provides full access to the underlying data.
+In particular, it allows access to the normalized metadata: categories and subcategories of use, and references. 
+It also provides download capabilities. 
+You can download the full database as a <a href="naeb.db">sqlite3 database file</a> , or a <a href="static/naeb.zip">zipfile of all the csv files</a>.
+</p>
+<p>
+Many thanks to the wonderful <a href="https://datasette.io/">Datasette</a> tool.
+</p>
+<p>
+For comments or questions, please submit <a href="TODO">this google form</a>.
+</p>
+{{ super() }}
+{% endblock %}
+

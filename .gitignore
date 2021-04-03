@@ -1,5 +1,6 @@
 venv/
 data/*
 !data/raw.tar.gz
+naeb.tar.gz
 .unzipped
 *.sqlite3

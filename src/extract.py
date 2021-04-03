@@ -13,7 +13,8 @@ COL_NAMES = {
         'uses': ['id','tribe_name','species_name'
             ,'use_category'
             ,'use_subcategory'
-            ,'documented_by'
+            ,'source'
+            ,'pageno'
             ,'notes'
             ,'_species_usda_code'
             ,'_species_common_names'
@@ -26,9 +27,9 @@ def main():
     if not os.path.exists(EXTRACTED_PATH):
         os.mkdir(EXTRACTED_PATH)
     print("extracting tribes")
-    # tribes = process('tribes', extract_tribes)
+    tribes = process('tribes', extract_tribes)
     print("extracting species")
-    # species = process('species', extract_species)
+    species = process('species', extract_species)
     print("extracting uses")
     uses = process('uses', extract_uses)
 
@@ -101,6 +102,9 @@ def extract_uses(soup, id_):
     body = soup.body
 
     doc_by = body.find('strong').next_sibling.next_sibling.strip()
+    spl = doc_by.split('page ')
+    pageno = spl[-1]
+    source = 'page '.join(spl[:-1])
     
     sciname = search_and_get_first_group('Scientific name: (.*)', body)
     tribe_name = search_and_get_first_group('Native American Tribe: (.*)', body)
@@ -112,14 +116,14 @@ def extract_uses(soup, id_):
     common_names = search_and_get_first_group('Common names: (.*)', body)
     usda_code = search_and_get_first_group('USDA symbol: (.*) \(', body)
 
-    # TODO: don't split these here; later when we normalize
     return {
             'id': id_,
             'tribe_name': tribe_name,
             'species_name': sciname,
             'use_category': use_cat,
             'use_subcategory': use_subcat,
-            'documented_by': doc_by,
+            'source': source,
+            'pageno': pageno,
             'notes': notes,
             '_species_usda_code': usda_code,
             '_species_common_names': common_names,

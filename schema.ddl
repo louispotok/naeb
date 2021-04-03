@@ -17,8 +17,8 @@ CREATE TABLE IF NOT EXISTS species (
         family_apg TEXT
         );
 
-DROP TABLE IF EXISTS docs;
-CREATE TABLE IF NOT EXISTS docs (
+DROP TABLE IF EXISTS sources;
+CREATE TABLE IF NOT EXISTS  sources(
         id INTEGER PRIMARY KEY NOT NULL,
         name TEXT
         );
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS use_categories (
 DROP TABLE IF EXISTS use_subcategories;
 CREATE TABLE IF NOT EXISTS use_subcategories (
         id INTEGER PRIMARY KEY NOT NULL,
-        parent id,
+        parent INTEGER, 
         name TEXT,
         FOREIGN KEY(parent) REFERENCES use_categories(id)
         );
@@ -42,13 +42,14 @@ CREATE TABLE IF NOT EXISTS uses (
         id INTEGER PRIMARY KEY NOT NULL,
         species INTEGER NOT NULL,
         tribe INTEGER NOT NULL,
-        doc INTEGER NOT NULL,
-        use_category TEXT,
-        use_subcategory TEXT,
+        source INTEGER NOT NULL,
+        pageno TEXT NOT NULL,
+        use_category INTEGER,
+        use_subcategory INTEGER,
         notes TEXT,
         FOREIGN KEY(use_category) REFERENCES use_categories(id),
         FOREIGN KEY(use_subcategory) REFERENCES use_subcategories(id),
         FOREIGN KEY(tribe) REFERENCES tribe(id),
         FOREIGN KEY(species) REFERENCES species(id),
-        FOREIGN KEY(doc) REFERENCES docs(id)
+        FOREIGN KEY(source) REFERENCES sources(id)
         );

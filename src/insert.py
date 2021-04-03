@@ -9,7 +9,8 @@ def main():
     cur = con.cursor()
     insert_tribes(cur, tribes)
     insert_species(cur, species)
-    insert_uses(cur, uses)
+    con.commit()
+    insert_uses(con,cur, uses)
     con.commit()
     con.close()
 
@@ -31,10 +32,12 @@ def insert_species(cur, species):
 
 def get_fk_from_name(cur, tname, val):
     result = cur.execute(f"SELECT * FROM {tname} where name=?", (val,)).fetchone()
-    if not result:
+    if result:
+        result_id = result['id']
+    else:
         cur.execute(f"INSERT INTO {tname} (name) VALUES (?)", (val, ))
-        result = cur.execute(f"SELECT * FROM {tname} where name=?", (val, )).fetchone()
-    return result['id']
+        result_id = cur.lastrowid
+    return result_id
 
 def insert_remaining_species_info(cur, u, species_id):
     spec = cur.execute("SELECT * FROM species where id=?", (species_id,)).fetchone()
@@ -52,22 +55,33 @@ def insert_remaining_species_info(cur, u, species_id):
         cur.execute(f"UPDATE species SET {c}=? WHERE id=?", (v,species_id))
 
 
-def insert_uses(cur, uses):
+def get_subcat(cur, subcat_name, cat_id):
+    if subcat_name == 'Unspecified':
+        return None
+    result = cur.execute("SELECT * FROM use_subcategories where name=?", (subcat_name,)).fetchone()
+    if result and result['parent']==cat_id:
+        subcat_id = result['id']
+    else:
+        cur.execute(f"INSERT INTO use_subcategories (name, parent) VALUES (?, ?)", (subcat_name, cat_id))
+        subcat_id = cur.lastrowid
+    return subcat_id
+
+def insert_uses(con, cur, uses):
     print("loading uses")
-    u = uses[0]
-    doc_id = get_fk_from_name(cur, 'docs', u['documented_by'])
-    use_cat = get_fk_from_name(cur, 'use_categories', u['use_category'])
-    use_subcat = get_fk_from_name(cur, 'use_subcategories', u['use_subcategory'])
-    tribe_id = get_fk_from_name(cur, 'tribes', u['tribe_name'])
-    species_id = get_fk_from_name(cur, 'species', u['species_scientific_name'])
+    for u in tqdm(uses):
+        source_id = get_fk_from_name(cur, 'sources', u['source'])
+        use_cat = get_fk_from_name(cur, 'use_categories', u['use_category'])
+        use_subcat = get_subcat(cur, u['use_subcategory'], use_cat)
+        tribe_id = get_fk_from_name(cur, 'tribes', u['tribe_name'])
+        species_id = get_fk_from_name(cur, 'species', u['species_name'])
 
-    notes = u['notes']
+        notes = u['notes']
 
-    insert_remaining_species_info(cur, u, species_id)
-    cur.execute("""INSERT INTO uses (id, species, tribe, doc, use_category, use_subcategory, notes)
-            VALUES (?, ?, ?, ?, ?, ?, ?)""", 
-            (u['id'], species_id, tribe_id, doc_id, use_cat, use_subcat, notes)
-            )
+        insert_remaining_species_info(cur, u, species_id)
+        cur.execute("""INSERT INTO uses (id, species, tribe, source, use_category, use_subcategory, notes, pageno)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)""", 
+                (u['id'], species_id, tribe_id, source_id, use_cat, use_subcat, notes, u['pageno'])
+                )
     return
 
 def load_tables():
