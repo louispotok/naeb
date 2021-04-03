@@ -6,8 +6,9 @@
 - [x]: normalize and insert data
 - [x]: create database
 - [x]: Makefile still a bit funky - should normalize depend on actual files?
-- [ ]: fix `docs` table -- includes the page number, now
-- [ ]: custom about page
+- [x]: fix `docs` table -- includes the page number, now
+- [x]: custom about page
+- [ ]: add metadata.json
+- [ ]: figure out how to serve
+- [ ]: buy a domain
 
-ANALYSIS:
-- [ ]: subcategories with same name and different parents
