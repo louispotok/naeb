@@ -2,25 +2,28 @@
 
 {% block content %}
 <h1>Native American Ethnobotany</h1>
-<h2>About this site</h2>
-<p>This site provides an alternate interface on the Native American Ethnobotany (NAEB) database, as found <a href="http://naeb.brit.org/">here</a>. 
-It has been reconstructed from the publicly available NAEB site, and no guarantees are made as to its accuracy.
-This site has no affiliation with the original authors, it is provided in the hope of being useful to future researchers.
-The NAEB database is due to <a href="https://en.wikipedia.org/wiki/Daniel_Moerman">Daniel Moerman</a>, who deserves all credit for this research.
+<p>
+The <a href="http://naeb.brig.org/">Native American Ethnobotany (NAEB) database</a> is a treasure. It compiles 45,000 uses of 4000 different plants by 300 Native American Tribes, as recorded in 200 distinct sources.
+As <a ref="http://naeb.brit.org/about">described on their site</a>, this database was built over decades, starting in the 1970s, spearheaded by the work of <a href="https://en.wikipedia.org/wiki/Daniel_Moerman">Daniel Moerman</a>.
 You may be interested in Professor Moerman's book <a href="https://www.amazon.com/Native-American-Ethnobotany-Daniel-Moerman/dp/0881924539">Native American Ethnobotany</a>.
 </p>
+<h2>About this site</h2>
+<p>This site provides an alternate <b>unauthorized</b> interface on the NAEB database.
+It has been reconstructed from the publicly available NAEB site, and no guarantees are made as to its accuracy.
+This site has no affiliation with the original authors, it is provided in the hope of being useful to future researchers.
+The original creators and maintainers of the NAEB database deserves all credit for this work. I hope only provide a slight improvement in usability.
+</p>
 <p>
-Unlike the main NAEB site, this website provides full access to the underlying data.
+Unlike the official NAEB site, this website provides full access to the underlying data.
 In particular, it allows access to the normalized metadata: categories and subcategories of use, and references. 
 It also provides download capabilities. 
-You can download the full database as a <a href="naeb.db">sqlite3 database file</a> , or a <a href="static/naeb.zip">zipfile of all the csv files</a>.
+You can download the full database as a <a href="naeb.db">sqlite3 database file</a> , or a <a href="static/naeb.tar.gz">zipfile of all the csv files</a>.
 </p>
 <p>
-Many thanks to the wonderful <a href="https://datasette.io/">Datasette</a> tool.
+Many thanks to the wonderful <a href="https://datasette.io/">Datasette</a> tool which powers this website.
 </p>
 <p>
-For comments or questions, please submit <a href="TODO">this google form</a>.
+For comments or questions, please submit <a href="TODO">this google form</a>. I'd love to know how you're using this and how it can be more useful.
 </p>
 {{ super() }}
 {% endblock %}
-
