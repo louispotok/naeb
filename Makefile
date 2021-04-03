@@ -1,10 +1,9 @@
 .PHONY : clean 
 EXTRACTED=data/extracted/tribes.csv data/extracted/uses.csv data/extracted/species.csv
 
-naeb.tar.gz: export.sh naeb.sqlite3
-	# there must be a better way to do this
+static/naeb.tar.gz: export.sh naeb.sqlite3
 	bash export.sh naeb.sqlite3
-	tar -czf naeb.tar.gz data/naeb_dump/*.csv
+	tar -czf static/naeb.tar.gz data/naeb_dump/*.csv
 
 naeb.sqlite3: schema.ddl src/insert.py $(EXTRACTED)
 	rm -f naeb.sqlite3
