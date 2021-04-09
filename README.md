@@ -1,3 +1,5 @@
+To publish: `make serve`.
+
 - [x]: Scrape raw html files
 - [x]: move to `data/raw` directory and zip
 - [x]: design schema
@@ -11,4 +13,4 @@
 - [ ]: add metadata.json
 - [ ]: figure out how to serve
 - [ ]: buy a domain
-
+- [ ]: set up analytics (may be through serve provider; maybe to go same matomo instance)
