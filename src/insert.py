@@ -1,18 +1,40 @@
 import sqlite3
 import csv
 from tqdm import tqdm
+import json
+import sys
+sys.path.append('./biblib')
+from biblib.bib import Parser
 
 def main():
     tribes, species, uses = load_tables()
     con = sqlite3.connect('naeb.sqlite3')
     con.row_factory = sqlite3.Row
     cur = con.cursor()
+    insert_sources(cur)
     insert_tribes(cur, tribes)
     insert_species(cur, species)
     con.commit()
     insert_uses(con,cur, uses)
     con.commit()
     con.close()
+
+def insert_sources(cur):
+    print("loading sources")
+    bib = load_bib()
+    mapping = load_mapping()
+    ref_to_name = {r:n for n,r in mapping}
+
+    for k,e in tqdm(bib.items()):
+        typ = e.typ
+        fulltext = ref_to_name[k]
+        cur.execute("INSERT INTO sources (refcode, type, fulltext) VALUES (?, ?, ?)", (k, typ, fulltext))
+        _id = cur.lastrowid
+        for f,v in e.items():
+            cur.execute(f"UPDATE sources SET {f} = ? WHERE id = ?", (v, _id))
+
+    return
+
 
 def insert_tribes(cur, tribes):
     print("loading tribes")
@@ -67,9 +89,11 @@ def get_subcat(cur, subcat_name, cat_id):
     return subcat_id
 
 def insert_uses(con, cur, uses):
+    mapping = dict(load_mapping())
     print("loading uses")
     for u in tqdm(uses):
-        source_id = get_fk_from_name(cur, 'sources', u['source'])
+        # source_id = get_fk_from_name(cur, 'sources', u['source'])
+        source_id = get_source_id(cur, u['source'], mapping)
         use_cat = get_fk_from_name(cur, 'use_categories', u['use_category'])
         use_subcat = get_subcat(cur, u['use_subcategory'], use_cat)
         tribe_id = get_fk_from_name(cur, 'tribes', u['tribe_name'])
@@ -78,11 +102,28 @@ def insert_uses(con, cur, uses):
         notes = u['notes']
 
         insert_remaining_species_info(cur, u, species_id)
-        cur.execute("""INSERT INTO uses (id, species, tribe, source, use_category, use_subcategory, notes, pageno)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?)""", 
-                (u['id'], species_id, tribe_id, source_id, use_cat, use_subcat, notes, u['pageno'])
+        cur.execute("""INSERT INTO uses (id, species, tribe, source, use_category, use_subcategory, notes, pageno, rawsource)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""", 
+                (u['id'], species_id, tribe_id, source_id, use_cat, use_subcat, notes, u['pageno'], u['rawsource'])
                 )
     return
+
+def get_source_id(cur, source, mapping):
+    return cur.execute(
+            "SELECT id from sources where refcode = ?",
+            (mapping[source],)
+            ).fetchone()['id']
+
+
+def load_mapping():
+    with open('static/source-mapping.json','r') as f:
+        j = json.load(f)
+    return j
+
+def load_bib():
+    with open('static/canonical-sources.txt', 'r') as f:
+        entries = Parser().parse(f).get_entries()
+    return entries
 
 def load_tables():
     names = ['tribes','species','uses']

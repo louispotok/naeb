@@ -14,3 +14,5 @@ To publish: `make serve`.
 - [ ]: figure out how to serve
 - [ ]: buy a domain
 - [ ]: set up analytics (may be through serve provider; maybe to go same matomo instance)
+
+

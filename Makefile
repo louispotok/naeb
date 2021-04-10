@@ -8,11 +8,11 @@ static/naeb.tar.gz: export.sh naeb.sqlite3
 naeb.sqlite3: schema.ddl src/insert.py $(EXTRACTED)
 	rm -f naeb.sqlite3
 	sqlite3 naeb.sqlite3 < schema.ddl
-	. venv/bin/activate; python3 src/insert.py; deactivate
+	. venv/bin/activate && python3 src/insert.py && deactivate
 
 
 $(EXTRACTED): src/extract.py .unzipped 
-	. venv/bin/activate; python3 src/extract.py; deactivate
+	. venv/bin/activate && python3 src/extract.py && deactivate
 
 .unzipped: data/raw.tar.gz
 	tar -xzf $< -C data/
@@ -29,8 +29,10 @@ clean:
 	find . -type f -name "*.py[co]" -delete
 	find . -type d -name "__pycache__" -delete
 
+DATASETTE_ARGS=-i naeb.sqlite3 --template-dir=templates/ --static static:static/
+
 publish: naeb.sqlite3
-	. venv/bin/activate; datasette publish cloudrun -i naeb.sqlite3 --template-dir=templates/ --static static:static/ --service=naeb-clone; deactivate
+	. venv/bin/activate && datasette publish cloudrun $(DATASETTE_ARGS) --service=naeb-clone && deactivate
 
 serve: naeb.sqlite3
-	. venv/bin/activate; datasette serve -i naeb.sqlite3 --template-dir=templates/ --static static:static/
+	. venv/bin/activate && datasette serve $(DATASETTE_ARGS)

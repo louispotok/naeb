@@ -20,7 +20,26 @@ CREATE TABLE IF NOT EXISTS species (
 DROP TABLE IF EXISTS sources;
 CREATE TABLE IF NOT EXISTS  sources(
         id INTEGER PRIMARY KEY NOT NULL,
-        name TEXT
+        refcode TEXT,
+        type TEXT,
+        fulltext TEXT,
+        address TEXT,
+        author TEXT,
+        booktitle TEXT,
+        comment TEXT,
+        edition TEXT,
+        editor TEXT,
+        journal TEXT,
+        month TEXT,
+        note TEXT,
+        number TEXT,
+        pages TEXT,
+        publisher TEXT,
+        school TEXT,
+        title TEXT,
+        url TEXT,
+        volume TEXT,
+        year TEXT
         );
 
 DROP TABLE IF EXISTS use_categories;
@@ -43,6 +62,7 @@ CREATE TABLE IF NOT EXISTS uses (
         species INTEGER NOT NULL,
         tribe INTEGER NOT NULL,
         source INTEGER NOT NULL,
+        rawsource TEXT NOT NULL,
         pageno TEXT NOT NULL,
         use_category INTEGER,
         use_subcategory INTEGER,

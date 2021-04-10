@@ -1,0 +1,1793 @@
+@book{hc75,
+address = {Sylva, N.C.},
+author = {Hamel, Paul B. and Mary U. Chiltoskey},
+publisher = {Herald Publishing Co},
+title = {Cherokee Plants and Their Uses -- A 400 Year History},
+year = {1975},
+}
+
+@book{ws85,
+address = {Tucson},
+author = {Weber, Steven A. and P. David Seaman},
+publisher = {The University of Arizona Press},
+title = {Havasupai Habitat: A.F. Whiting's Ethnography of a Traditional Indian Culture},
+year = {1985},
+}
+
+@phdthesis{g83,
+author = {Gill, Steven J.},
+school = {Washington State University},
+title = {Ethnobotany of the Makah and Ozette People},
+year = {1983},
+}
+
+@article{d28,
+author = {Densmore, Frances},
+journal = {SI-BAE Annual Report},
+pages = {273-379},
+title = {Uses of Plants by the Chippewa Indians},
+volume = {44},
+year = {1928},
+}
+
+@book{r54,
+address = {New York},
+author = {Romero, John Bruno},
+publisher = {Vantage Press, Inc},
+title = {The Botanical Lore of the California Indians},
+year = {1954},
+}
+
+@article{s15,
+author = {Stevenson, Matilda Coxe},
+journal = {SI-BAE Annual Report},
+title = {Ethnobotany of the Zuni Indians},
+volume = {30},
+year = {1915},
+}
+
+@phdthesis{h77,
+author = {Herrick, James William},
+school = {State University of New York, Albany},
+title = {Iroquois Medical Botany},
+year = {1977},
+}
+
+@article{r28,
+author = {Reagan, Albert B.},
+journal = {Wisconsin Archeologist},
+number = {4},
+pages = {230-248},
+title = {Plants Used by the Bois Fort Chippewa (Ojibwa) Indians of Minnesota},
+volume = {7},
+year = {1928},
+}
+
+@article{s29,
+author = {Smith, Harlan I.},
+journal = {National Museum of Canada Bulletin},
+pages = {47-68},
+title = {Materia Medica of the Bella Coola and Neighboring Tribes of British Columbia},
+volume = {56},
+year = {1929},
+}
+
+@book{tta90,
+address = {Victoria},
+author = {Turner, Nancy J. and Laurence C. Thompson and M. Terry Thompson et al.},
+publisher = {Royal British Columbia Museum},
+title = {Thompson Ethnobotany: Knowledge and Usage of Plants by the Thompson Indians of British Columbia},
+year = {1990},
+}
+
+@book{c49,
+address = {Sante Fe},
+author = {Curtin, L. S. M.},
+publisher = {San Vicente Foundation},
+title = {By the Prophet of the Earth: Ethnobotany of the Pima},
+year = {1949},
+}
+
+@book{tha41,
+address = {Washington DC},
+author = {Train, Percy and James R. Henrichs and W. Andrew Archer},
+publisher = {U.S. Department of Agriculture},
+title = {Medicinal Uses of Plants by Indian Tribes of Nevada},
+year = {1941},
+}
+
+@article{g05,
+author = {Grinnell, George Bird},
+journal = {American Anthropologist},
+pages = {37-43},
+title = {Some Cheyenne Plant Medicines},
+volume = {7},
+year = {1905},
+}
+
+@phdthesis{c93,
+author = {Compton, Brian Douglas},
+school = {University of British Columbia},
+title = {Upper North Wakashan and Southern Tsimshian Ethnobotany: The Knowledge and Usage of Plants},
+year = {1993},
+}
+
+@book{gil33,
+address = {Ann Arbor},
+author = {Gilmore, Melvin R.},
+publisher = {University of Michigan Press},
+title = {Some Chippewa Uses of Plants},
+year = {1933},
+}
+
+@article{b84,
+author = {Bocek, Barbara R.},
+journal = {Economic Botany},
+number = {2},
+pages = {240-255},
+title = {Ethnobotany of Costanoan Indians, California, Based on Collections by John P Harrington},
+volume = {38},
+year = {1984},
+}
+
+@article{g19,
+author = {Gilmore, Melvin R.},
+journal = {SI-BAE Annual Report},
+title = {Uses of Plants by the Indians of the Missouri River Region},
+volume = {33},
+year = {1919},
+}
+
+@article{v52,
+author = {Vestal, Paul A.},
+journal = {Papers of the Peabody Museum of American Archaeology and Ethnology},
+number = {4},
+pages = {1-94},
+title = {The Ethnobotany of the Ramah Navaho},
+volume = {40},
+year = {1952},
+}
+
+@article{c35,
+author = {Castetter, Edward F.},
+journal = {University of New Mexico Bulletin},
+number = {1},
+pages = {1-44},
+title = {Ethnobiological Studies in the American Southwest 1, Uncultivated Native Plants Used as Sources of Food},
+volume = {4},
+year = {1935},
+url = {https://digitalrepository.unm.edu/unm_bulletin/23/},
+}
+
+@article{smith32,
+author = {Smith, Huron H.},
+journal = {Bulletin of the Public Museum of Milwaukee},
+pages = {327-525},
+title = {Ethnobotany of the Ojibwe Indians},
+volume = {4},
+year = {1932},
+}
+
+@article{smith28,
+author = {Smith, Huron H.},
+journal = {Bulletin of the Public Museum of the City of Milwaukee},
+pages = {175-326},
+title = {Ethnobotany of the Meskwaki Indians},
+volume = {4},
+year = {1928},
+}
+
+@book{t42,
+address = {Harrisburg},
+author = {Tantaquidgeon, Gladys},
+publisher = {Pennsylvania Historical Commission},
+title = {A Study of Delaware Indian Medicine Practice and Folk Beliefs},
+year = {1942},
+}
+
+@article{tb71,
+author = {Turner, Nancy Chapman and Marcus A. M. Bell},
+journal = {Economic Botany},
+number = {1},
+pages = {63-104, 335-339},
+title = {The Ethnobotany of the Coast Salish Indians of Vancouver Island I and II},
+volume = {25},
+year = {1971},
+url = {https://doi.org/10.1007/BF02894564},
+}
+
+@article{s08,
+author = {Sparkman, Philip S.},
+journal = {University of California Publications in American Archaeology and Ethnology},
+number = {4},
+pages = {187-234},
+title = {The Culture of the Luiseno Indians},
+volume = {8},
+year = {1908},
+}
+
+@book{g73,
+address = {Washington},
+author = {Gunther, Erna},
+edition = {Revised},
+publisher = {University of  Press},
+title = {Ethnobotany of Western Washington, Seattle},
+year = {1973},
+}
+
+@book{h74,
+address = {Ottawa},
+author = {Hellson, John C.},
+publisher = {National Museums of Canada. Mercury Series},
+title = {Ethnobotany of the Blackfoot Indians},
+year = {1974},
+}
+
+@article{cu35,
+author = {Castetter, Edward F. and Ruth M. Underhill},
+journal = {University of New Mexico Bulletin},
+number = {3},
+pages = {1-84},
+title = {Ethnobiological Studies in the American Southwest II: The Ethnobiology of the Papago Indians},
+volume = {4},
+year = {1935},
+}
+
+@phdthesis{c30,
+author = {Cook, Sarah Louise},
+school = {University of New Mexico},
+title = {The Ethnobotany of Jemez Indians},
+year = {1930},
+}
+
+@article{d44,
+author = {Dawson, E. Yale},
+journal = {Desert Plant Life},
+pages = {133-138},
+title = {Some Ethnobotanical Notes on the Seri Indians},
+volume = {9},
+year = {1944},
+}
+
+@book{h92,
+address = {Helena},
+author = {Hart, Jeff},
+publisher = {Montana Historical Society Press},
+title = {Montana Native Plants and Early Peoples},
+year = {1992},
+}
+
+@book{bs72,
+address = {Banning, CA},
+author = {Bean, Lowell John and Katherine Siva Saubel},
+publisher = {Malki Museum Press},
+title = {Temalpakh (From the Earth); Cahuilla Indian Knowledge and Usage of Plants},
+year = {1972},
+}
+
+@book{tbk80,
+address = {Victoria},
+author = {Turner, Nancy J. and R. Bouchard and Dorothy I. D. Kennedy},
+publisher = {British Columbia Provincial Museum},
+title = {Ethnobotany of the Okanagan-Colville Indians of British Columbia and Washington},
+year = {1980},
+}
+
+@article{steed28,
+author = {Steedman, E. V.},
+journal = {SI-BAE Annual Report},
+pages = {441-522},
+title = {The Ethnobotany of the Thompson Indians of British Columbia},
+volume = {45},
+year = {1928},
+}
+
+@article{h49,
+author = {Hocking, George M.},
+journal = {The Rocky Mountain Druggist},
+month = {November},
+pages = {12,38},
+title = {From Pokeroot to Penicillin},
+year = {1949},
+}
+
+@article{cfh79,
+author = {Chandler, R. Frank and Lois Freeman and Shirley N. Hooper},
+journal = {Journal of Ethnopharmacology},
+pages = {49-68},
+title = {Herbal Remedies of the Maritime Indians},
+volume = {1},
+year = {1979},
+}
+
+@book{k85,
+address = {Anchorage},
+author = {Kari, Priscilla Russe},
+publisher = {Alaska Historical Commission},
+title = {Upper Tanana Ethnobotany},
+year = {1985},
+}
+
+@article{w39,
+author = {Whiting, Alfred F.},
+journal = {Museum of Northern Arizona Bulletin},
+title = {Ethnobotany of the Hopi},
+volume = {15},
+year = {1939},
+}
+
+@article{c11,
+author = {Chamberlin, Ralph V.},
+journal = {Memoirs of the American Anthropological Association},
+number = {5},
+pages = {331-405},
+title = {The Ethno-Botany of the Gosiute Indians of Utah},
+volume = {2},
+year = {1911},
+}
+
+@book{g72,
+address = {Lincoln},
+author = {Grinnell, George Bird},
+publisher = {University of Nebraska Press},
+title = {The Cheyenne Indians - Their History and Ways of Life Vol.2},
+year = {1972},
+}
+
+@book{gl80,
+address = {University of California, Los Angeles},
+author = {Goodrich, Jennie and Claudia Lawson},
+publisher = {American Indian Studies Center},
+title = {Kashaya Pomo Plants, Los Angeles},
+year = {1980},
+}
+
+@book{te82,
+address = {Victoria},
+author = {Turner, Nancy J. and Barbara S. Efrat},
+publisher = {British Columbia Provincial Museum},
+title = {Ethnobotany of the Hesquiat Indians of Vancouver Island},
+year = {1982},
+}
+
+@article{m09,
+author = {McClintock, Walter},
+journal = {Zeitschriff fur Ethnologie},
+pages = {273-9},
+title = {Medizinal- Und Nutzpflanzen Der Schwarzfuss Indianer},
+volume = {41},
+year = {1909},
+}
+
+@article{smith33,
+author = {Smith, Huron H.},
+journal = {Bulletin of the Public Museum of the City of Milwaukee},
+pages = {1-230},
+title = {Ethnobotany of the Forest Potawatomi Indians},
+volume = {7},
+year = {1933},
+}
+
+@article{r32,
+author = {Ray, Verne F.},
+journal = {University of Washington Publications in Anthropology},
+title = {The Sanpoil and Nespelem: Salishan Peoples of Northeastern Washington},
+volume = {5},
+year = {1932},
+}
+
+@article{r29,
+author = {Reagan, Albert B.},
+journal = {Wisconsin Archeologist},
+pages = {143-61},
+title = {Plants Used by the White Mountain Apache Indians of Arizona},
+volume = {8},
+year = {1929},
+}
+
+@article{c57i,
+author = {Curtin, L. S. M.},
+journal = {The Masterkey},
+pages = {40-48},
+title = {Some Plants Used by the Yuki Indians ... I. Historical Review and Medicinal Plants},
+volume = {31},
+year = {1957},
+}
+
+@book{l85,
+address = {Ottawa},
+author = {Leighton, Anna L.},
+note = {Mercury Series},
+publisher = {National Museums of Canada},
+title = {Wild Plant Use by the Woods Cree (Nihithawak) of East-Central Saskatchewan},
+year = {1985},
+}
+
+@article{g36,
+author = {Gifford, E. W.},
+journal = {University of California Publications in American Archaeology and Ethnology},
+pages = {247-345},
+title = {Northeastern and Western Yavapai},
+volume = {34},
+year = {1936},
+}
+
+@article{speck41,
+author = {Speck, Frank G.},
+journal = {Primitive Man},
+pages = {49-75},
+title = {A List of Plant Curatives Obtained From the Houma Indians of Louisiana},
+volume = {14},
+year = {1941},
+}
+
+@book{f89,
+address = {Salt Lake City},
+author = {Fowler, Catherine S.},
+publisher = {University of Utah Press},
+title = {Willards Z. Park's Ethnographic Notes on the Northern Paiute of Western Nevada 1933-1940},
+year = {1989},
+}
+
+@article{s23,
+author = {Smith, Huron H.},
+journal = {Bulletin of the Public Museum of the City of Milwaukee},
+pages = {1-174},
+title = {Ethnobotany of the Menomini Indians},
+volume = {4},
+year = {1923},
+}
+
+@book{b74,
+address = {New York},
+author = {Basehart, Harry W.},
+publisher = {Garland Publishing Inc},
+title = {Apache Indians XII. Mescalero Apache Subsistence Patterns and Socio-Political Organization},
+year = {1974},
+}
+
+@article{t73,
+author = {Turner, Nancy J.},
+journal = {Syesis},
+pages = {193-220},
+title = {The Ethnobotany of the Bella Coola Indians of British Columbia},
+volume = {6},
+year = {1973},
+}
+
+@book{j83,
+address = {Kotzebue, Alaska},
+author = {Jones, Anore},
+publisher = {Maniilaq Association Traditional Nutrition Program},
+title = {Nauriat Niginaqtuat = Plants That We Eat},
+year = {1983},
+}
+
+@article{p52,
+author = {Perry, F.},
+journal = {Museum and Art Notes},
+number = {2},
+pages = {36-43},
+title = {Ethno-Botany of the Indians in the Interior of British Columbia},
+volume = {2},
+year = {1952},
+}
+
+@article{h91,
+author = {Hoffman, W. J.},
+journal = {SI-BAE Annual Report},
+title = {The Midewiwin or 'Grand Medicine Society' of the Ojibwa},
+volume = {7},
+year = {1891},
+}
+
+@article{h81,
+author = {Hart, Jeffrey A.},
+journal = {Journal of Ethnopharmacology},
+pages = {1-55},
+title = {The Ethnobotany of the Northern Cheyenne Indians of Montana},
+volume = {4},
+year = {1981},
+}
+
+@article{bc41,
+author = {Bell, Willis H. and Edward F. Castetter},
+journal = {University of New Mexico Bulletin},
+number = {5},
+pages = {1-74},
+title = {Ethnobiological Studies in the Southwest VII. The Utilization of of Yucca, Sotol and Beargrass by the Aborigines in the American Southwest.},
+volume = {5},
+year = {1941},
+}
+
+@article{r45ii,
+author = {Rousseau, Jacques},
+journal = {Contributions de l'Institut botanique l'Universite de Montreal},
+pages = {7-72},
+title = {Le Folklore Botanique De Caughnawaga},
+volume = {55},
+year = {1945},
+}
+
+@book{z81,
+address = {Salt Lake City},
+author = {Zigmond, Maurice L.},
+publisher = {University of Utah Press},
+title = {Kawaiisu Ethnobotany},
+year = {1981},
+}
+
+@article{rhf16,
+author = {Robbins, W. W. and J. P. Harrington and B. Freire-Marreco},
+journal = {SI-BAE Bulletin},
+title = {Ethnobotany of the Tewa Indians},
+volume = {55},
+year = {1916},
+}
+
+@article{cw45,
+author = {Carr, Lloyd G. and Carlos Westey},
+journal = {Journal of American Folklore},
+pages = {113-123},
+title = {Surviving Folktales & Herbal Lore Among the Shinnecock Indians},
+volume = {58},
+year = {1945},
+}
+
+@article{tb73,
+author = {Turner, Nancy Chapman and Marcus A. M. Bell},
+journal = {Economic Botany},
+pages = {257-310},
+title = {The Ethnobotany of the Southern Kwakiutl Indians of British Columbia},
+volume = {27},
+year = {1973},
+}
+
+@article{w78,
+author = {Wilson, Michael R.},
+journal = {The Western Canadian Journal of Anthropology},
+pages = {180-196},
+title = {Notes on Ethnobotany in Inuktitut},
+volume = {8},
+year = {1978},
+}
+
+@article{stew33,
+author = {Steward, Julian H.},
+journal = {University of California Publications in American Archaeology and Ethnology},
+number = {3},
+pages = {233-250},
+title = {Ethnography of the Owens Valley Paiute},
+volume = {33},
+year = {1933},
+}
+
+@article{c97,
+author = {Coville, Frederick V.},
+journal = {Contributions from the US. National Herbarium},
+number = {2},
+pages = {87-110},
+title = {Notes On The Plants Used By The Klamath Indians Of Oregon},
+volume = {5},
+year = {1897},
+}
+
+@book{b80,
+address = {Ottawa},
+author = {Black, Meredith Jean},
+note = {Mercury Series Number 65},
+publisher = {National Museums of Canada.},
+title = {Algonquin Ethnobotany: An Interpretation of Aboriginal Adaptation in South Western Quebec},
+year = {1980},
+}
+
+@book{a22,
+address = {Honolulu},
+author = {Akana, Akaiko},
+publisher = {Pacific Book House},
+title = {Hawaiian Herbs of Medicinal Value},
+year = {1922},
+}
+
+@article{c57ii,
+author = {Curtin, L. S. M.},
+journal = {The Masterkey},
+pages = {85-94},
+title = {Some Plants Used by the Yuki Indians ... II. Food Plants},
+volume = {31},
+year = {1957},
+}
+
+@mastersthesis{b81,
+author = {Baker, Marc A.},
+school = {Humboldt State University},
+title = {The Ethnobotany of the Yurok, Tolowa and Karok Indians of Northwest California},
+year = {1981},
+}
+
+@article{sg52,
+author = {Schenck, Sara M. and E. W. Gifford},
+journal = {Anthropological Records},
+number = {6},
+pages = {377-392},
+title = {Karok Ethnobotany},
+volume = {13},
+year = {1952},
+}
+
+@article{f96,
+author = {Fewkes, J. Walter},
+journal = {American Anthropologist},
+pages = {14-21},
+title = {A Contribution to Ethnobotany},
+volume = {9},
+year = {1896},
+}
+
+@article{b05,
+author = {Blankinship, J. W.},
+journal = {Bozeman Montana Agricultural College Experimental Station},
+title = {Native Economic Plants of Montana,},
+volume = {Bulletin 56},
+year = {1905},
+}
+
+@book{e44,
+address = {Sante Fe, NM},
+author = {Elmore, Francis H.},
+publisher = {School of American Research},
+title = {Ethnobotany of the Navajo},
+year = {1944},
+}
+
+@article{s37,
+author = {Speck, Frank G.},
+journal = {Publications of the Philadelphia Anthropological Society},
+pages = {179-197},
+title = {Catawba Medicines and Curative Practices},
+volume = {1},
+year = {1937},
+}
+
+@mastersthesis{j31,
+author = {Jones, Volney H.},
+school = {University of New Mexico},
+title = {The Ethnobotany of the Isleta Indians},
+year = {1931},
+}
+
+@article{r36,
+author = {Reagan, Albert B.},
+journal = {Kansas Academy of Science},
+pages = {55-70},
+title = {Plants Used by the Hoh and Quileute Indians},
+volume = {37},
+year = {1936},
+}
+
+@article{sd52,
+author = {Speck, Frank G. and R. W. Dexter},
+journal = {Journal of the Washington Academy of Sciences},
+pages = {1-7},
+title = {Utilization of Animals and Plants by the Malecite Indians of New Brunswick},
+volume = {42},
+year = {1952},
+}
+
+@mastersthesis{swank32,
+author = {Swank, George R.},
+school = {University of New Mexico},
+title = {The Ethnobotany of the Acoma and Laguna Indians},
+year = {1932},
+}
+
+@article{g67,
+author = {Gifford, E. W.},
+journal = {Anthropological Records},
+pages = {10-15},
+title = {Ethnographic Notes on the Southwestern Pomo},
+volume = {25},
+year = {1967},
+}
+
+@article{p74,
+author = {Powers, Stephen},
+journal = {Proceedings of the California Academy of Science},
+pages = {373-9},
+title = {Aboriginal Botany},
+volume = {5},
+year = {1874},
+}
+
+@incollection{c74,
+address = {New York},
+author = {Colton, Harold S.},
+booktitle = {Hopi Indians},
+editor = {D.A. Horr},
+publisher = {Garland},
+title = {Hopi History And Ethnobotany},
+year = {1974},
+}
+
+@article{h84,
+author = {Holmes, E. M.},
+journal = {The Pharmaceutical Journal and Transactions},
+pages = {302-304},
+title = {Medicinal Plants Used by Cree Indians, Hudson's Bay Territory,},
+volume = {15},
+year = {1884},
+}
+
+@article{r47,
+author = {Rousseau, Jacques},
+journal = {Archives de Folklore},
+pages = {145-182},
+title = {Ethnobotanique Abenakise},
+volume = {11},
+year = {1947},
+}
+
+@article{hedges86,
+author = {Hedges, Ken},
+journal = {San Diego Museum of Man Ethnic Technology Notes},
+title = {Santa Ysabel Ethnobotany},
+volume = {20},
+year = {1986},
+}
+
+@phdthesis{perry75,
+author = {Perry, Myra Jean},
+school = {The University of Tennessee},
+title = {Food Use of 'Wild' Plants by Cherokee Indians},
+year = {1975},
+}
+
+@book{b86,
+address = {Norman},
+author = {Buskirk, Winfred},
+publisher = {University of Oklahoma Press},
+title = {The Western Apache: Living With the Land Before 1950},
+year = {1986},
+}
+
+@phdthesis{s54,
+author = {Sturtevant, William},
+school = {Yale University},
+title = {The Mikasuki Seminole: Medical Beliefs and Practices},
+year = {1954},
+}
+
+@article{c02,
+author = {Chestnut, V. K.},
+journal = {Contributions from the US. National Herbarium},
+pages = {295-408},
+title = {Plants Used by the Indians of Mendocino County, California,},
+volume = {7},
+year = {1902},
+}
+
+@article{w45,
+author = {White, Leslie A.},
+journal = {Papers of the Michigan Academy of Arts, Sciences and Letters},
+pages = {557-568},
+title = {Notes on the Ethnobotany of the Keres},
+volume = {30},
+year = {1945},
+}
+
+@article{g13i,
+author = {Gilmore, Melvin R.},
+journal = {Collections of the Nebraska State Historical Society},
+pages = {358-70},
+title = {Some Native Nebraska Plants With Their Uses by the Dakota},
+volume = {17},
+year = {1913},
+}
+
+@article{palmer75,
+author = {Palmer, Gary},
+journal = {Syesis},
+pages = {29-51},
+title = {Shuswap Indian Ethnobotany},
+volume = {8},
+year = {1975},
+}
+
+@article{mech59,
+author = {Mechling, W. H.},
+journal = {Anthropologica},
+pages = {239-263},
+title = {The Malecite Indians With Notes on the Micmacs},
+volume = {8},
+year = {1959},
+}
+
+@article{s73,
+author = {Smith, G. Warren},
+journal = {Arctic},
+pages = {324-333},
+title = {Arctic Pharmacognosia},
+volume = {26},
+year = {1973},
+}
+
+@article{co36,
+author = {Castetter, Edward F. and M. E. Opler},
+journal = {, University of New Mexico Bulletin},
+number = {5},
+pages = {1-63},
+title = {Ethnobiological Studies in the American Southwest III. The Ethnobiology of the Chiricahua and Mescalero Apache},
+volume = {4},
+year = {1936},
+}
+
+@article{b52,
+author = {Barrett, S. A.},
+journal = {Bulletin of the Public Museum of the City of Milwaukee},
+title = {Material Aspects of Pomo Culture},
+volume = {20},
+year = {1952},
+}
+
+@article{t72,
+author = {Tantaquidgeon, Gladys},
+journal = {Pennsylvania Historical Commission Anthropological Papers},
+title = {Folk Medicine of the Delaware and Related Algonkian Indians, Harrisburg},
+volume = {3},
+year = {1972},
+}
+
+@mastersthesis{m53,
+author = {Mahar, James Michael.},
+note = {B.A. Thesis},
+school = {Reed College},
+title = {Ethnobotany of the Oregon Paiutes of the Warm Springs Indian Reservation},
+year = {1953},
+}
+
+@article{f80,
+author = {Fleisher, Mark S.},
+journal = {Northwest Anthropological Research Notes},
+number = {2},
+pages = {192-210},
+title = {The Ethnobotany of the Clallam Indians of Western Washington},
+volume = {14},
+year = {1980},
+}
+
+@article{bg33,
+author = {Barrett, S. A. and E. W. Gifford},
+journal = {Bulletin of the Public Museum of the City of Milwaukee},
+number = {4},
+pages = {11},
+title = {Miwok Material Culture},
+volume = {2},
+year = {1933},
+}
+
+@book{ttco83,
+address = {Victoria},
+author = {Turner, Nancy J. and John Thomas and Barry F. Carlson and Robert T. Ogilvie},
+publisher = {British Columbia Provincial Museum},
+title = {Ethnobotany of the Nitinaht Indians of Vancouver Island},
+year = {1983},
+}
+
+@article{shc42,
+author = {Speck, Frank G. and R. B. Hassrick and E. S. Carpenter},
+journal = {Proceedings of the Delaware County Institute of Science},
+pages = {7-55},
+title = {Rappahannock Herbals, Folk-Lore and Science of Cures},
+volume = {10},
+year = {1942},
+}
+
+@inproceedings{s17,
+author = {Speck, Frank G.},
+booktitle = {Proceedings of the 19th International Congress of Americanists},
+pages = {303-321},
+title = {Medicine Practices of the Northeastern Algonquians},
+year = {1917},
+}
+
+@article{r08,
+author = {Russell, Frank},
+journal = {SI-BAE Annual Report},
+pages = {1-390},
+title = {The Pima Indians},
+volume = {26},
+year = {1908},
+}
+
+@article{w47,
+author = {Witthoft, John},
+journal = {Journal of the Washington Academy of Sciences},
+number = {3},
+pages = {73-75},
+title = {An Early Cherokee Ethnobotanical Note},
+volume = {37},
+year = {1947},
+}
+
+@book{wh51,
+address = {Albuquerque},
+author = {Wyman, Leland C. and Stuart K. Harris},
+publisher = {The University of New Mexico Press},
+title = {The Ethnobotany of the Kayenta Navaho},
+year = {1951},
+}
+
+@book{p10,
+address = {Albany, NY},
+author = {Parker, Arthur Caswell},
+publisher = {University of the State of New York},
+title = {Iroquois Uses of Maize and Other Food Plants},
+year = {1910},
+}
+
+@book{r80,
+address = {St Francis, SD},
+author = {Rogers, Dilwyn J.},
+publisher = {Rosebud Educational Society},
+title = {Lakota Names and Traditional Uses of Native Plants by Sicangu (Brule) People in the Rosebud Area, South Dakota},
+year = {1980},
+}
+
+@book{m66,
+address = {Berkeley},
+author = {Merriam, C. Hart},
+publisher = {University of California Archaeological Research Facility},
+title = {Ethnographic Notes on California Indian Tribes},
+year = {1966},
+}
+
+@article{tan28,
+author = {Tantaquidgeon, Gladys},
+journal = {SI-BAE Annual Report},
+pages = {264-270},
+title = {Mohegan Medicinal Practices, Weather-Lore and Superstitions},
+volume = {43},
+year = {1928},
+}
+
+@book{m90,
+address = {Glenwood, Ill},
+author = {Murphey, Edith Van Allen},
+note = {Originally published in 1959},
+publisher = {Meyerbooks},
+title = {Indian Uses of Native Plants},
+year = {1990},
+}
+
+@book{w16,
+address = {Ottawa},
+author = {Waugh, F. W.},
+publisher = {Canada Department of Mines},
+title = {Iroquis Foods and Food Preparation},
+year = {1916},
+}
+
+@article{ray45,
+author = {Raymond, Marcel.},
+journal = {Contributions de l'Institut botanique l'Universite de Montreal},
+pages = {113-134},
+title = {Notes Ethnobotaniques Sur Les Tete-De-Boule De Manouan},
+volume = {55},
+year = {1945},
+}
+
+@book{g27,
+address = {Seattle},
+author = {Gunther, Erna},
+publisher = {University of Washington Press},
+title = {Klallam Ethnography},
+year = {1927},
+}
+
+@book{t40,
+address = {Cambridge, MA},
+author = {Taylor, Linda Averill},
+publisher = {Botanical Museum of Harvard University},
+title = {Plants Used As Curatives by Certain Southeastern Tribes},
+year = {1940},
+}
+
+@article{r45i,
+author = {Rousseau, Jacques},
+journal = {Contributions de l'Institut botanique l'Universite de Montreal},
+pages = {75-111},
+title = {Le Folklore Botanique De L'ile Aux Coudres},
+volume = {55},
+year = {1945},
+}
+
+@book{f90,
+address = {Washington, DC},
+author = {Fowler, Catherine S.},
+publisher = {Smithsonian Institution Press},
+title = {Tule Technology: Northern Paiute Uses of Marsh Resources in Western Nevada,},
+year = {1990},
+}
+
+@article{bd09,
+author = {Bushnell, Jr., and David, I.},
+journal = {SI-BAE Bulletin},
+title = {The Choctaw of Bayou Lacomb, St. Tammany Parish, Louisiana},
+volume = {48},
+year = {1909},
+}
+
+@article{steg41,
+author = {Steggerda, Morris},
+journal = {Journal of the American Dietetic Association},
+number = {3},
+pages = {217-25},
+title = {Navajo Foods and Their Preparation},
+volume = {17},
+year = {1941},
+}
+
+@article{b44,
+author = {Burgesse, J. Allen},
+journal = {Primitive Man},
+pages = {1-18},
+title = {The Woman and the Child Among the Lac-St.-Jean Montagnais},
+volume = {17},
+year = {1944},
+}
+
+@book{l86,
+address = {Chinle, AZ},
+author = {Lynch, Regina H.},
+publisher = {Rough Rock Demonstration School, Navajo Curriculum Center},
+title = {Cookbook},
+year = {1986},
+}
+
+@article{h75,
+author = {Hinton, Leanne},
+journal = {Journal of California Anthropology},
+pages = {214-222},
+title = {Notes on La Huerta Diegueno Ethnobotany},
+volume = {2},
+year = {1975},
+}
+
+@article{a54,
+author = {Aller, Wilma F.},
+journal = {Wisconsin Archeologist},
+pages = {59-73},
+title = {Aboriginal Food Utilization of Vegetation by the Indians of the Great Lake Region As Recorded in the Jesuit Relations},
+volume = {35},
+year = {1954},
+}
+
+@article{ff11,
+author = {Fletcher, Alice C. and Francis La Flesche},
+journal = {SI-BAE Annual Report},
+title = {The Omaha Tribe},
+volume = {27},
+year = {1911},
+}
+
+@book{cb51,
+address = {Albuquerque},
+author = {Castetter, Edward F. and Willis H. Bell},
+publisher = {University of New Mexico Press},
+title = {Yuman Indian Agriculture},
+year = {1951},
+}
+
+@article{vest40,
+author = {Vestal, Paul A.},
+journal = {Botanical Museum Leaflets (Harvard University)},
+number = {8},
+pages = {153-168},
+title = {Notes on a Collection of Plants from the Hopi Indian Region of Arizona Made by J.G. Owens in 1891},
+volume = {8},
+year = {1940},
+}
+
+@book{w82,
+address = {Peach Springs, AZ},
+author = {Watahomigie, Lucille J.},
+publisher = {Hualapai Bilingual Program, Peach Springs School District #8},
+title = {Hualapai Ethnobotany},
+year = {1982},
+}
+
+@article{swan28,
+author = {Swanton, John R.},
+journal = {SI-BAE Annual Report},
+pages = {473-672},
+title = {Religious Beliefs and Medical Practices of the Creek Indians},
+volume = {42},
+year = {1928},
+}
+
+@article{g53,
+author = {Garth, Thomas R.},
+journal = {Anthropological Records},
+number = {2},
+pages = {140-141},
+title = {Atsugewi Ethnography},
+volume = {14},
+year = {1953},
+}
+
+@article{bt53,
+author = {Bank, I. I. and Theodore, P.},
+journal = {Botanical and Ethnobotanical Studies Papers, Michigan Academy of Science, Arts and Letter},
+title = {Botanical and Ethnobotanical Studies in the Aleutian Islands II. Health and Medical Lore of the Aleuts},
+year = {1953},
+}
+
+@article{t89,
+author = {Theodoratus, Robert J.},
+journal = {Northwest Anthropological Research Notes},
+number = {1},
+pages = {35-52},
+title = {Loss, Transfer, and Reintroduction in the Use of Wild Plant Foods in the Upper Skagit Valley},
+volume = {23},
+year = {1989},
+}
+
+@book{h53,
+author = {Heller, Christine A.},
+publisher = {University of Alaska},
+title = {Edible and Poisonous Plants of Alaska},
+year = {1953},
+}
+
+@book{k56,
+address = {Seattle},
+author = {Krause, Aurel},
+note = {Translated by Erna Gunther},
+publisher = {University of Washington Press},
+title = {The Tlingit Indians},
+year = {1956},
+}
+
+@book{c73,
+address = {Fort St James, BC},
+author = {Carrier Linguistic Committee},
+publisher = {Carrier Linguistic Committee},
+title = {Plants of Carrier Country},
+year = {1973},
+}
+
+@article{ahj81,
+author = {Arnason, Thor and Richard J. Hebda and Timothy Johns},
+journal = {Canadian Journal of Botany},
+number = {11},
+pages = {2189-2325},
+title = {Use of Plants for Food and Medicine by Native Peoples of Eastern Canada},
+volume = {59},
+year = {1981},
+}
+
+@article{r91,
+author = {Rea, Amadeo M.},
+journal = {Arid Lands Newsletter},
+pages = {3-10},
+title = {Gila River Pima Dietary Reconstruction},
+volume = {31},
+year = {1991},
+}
+
+@article{v38,
+author = {Voegelin, Ermine W.},
+journal = {Anthropological Records},
+number = {1},
+pages = {1-84},
+title = {Tubatulabal Ethnography},
+volume = {2},
+year = {1938},
+}
+
+@article{c51,
+author = {Campbell, T. N.},
+journal = {Journal of the Washington Academy of Sciences},
+number = {9},
+pages = {285-290},
+title = {Medicinal Plants Used by Choctaw, Chickasaw, and Creek Indians in the Early Nineteenth Century},
+volume = {41},
+year = {1951},
+}
+
+@article{n66,
+author = {Nickerson, Gifford S.},
+journal = {Tebiwa},
+number = {1},
+pages = {45-51},
+title = {Some Data on Plains and Great Basin Indian Uses of Certain Native Plants},
+volume = {9},
+year = {1966},
+}
+
+@book{vs39,
+address = {Cambridge MA},
+author = {Vestal, Paul A. and Richard Evans Schultes},
+publisher = {Botanical Museum of Harvard University},
+title = {The Economic Botany of the Kiowa Indians},
+year = {1939},
+}
+
+@article{h56,
+author = {Hocking, George M.},
+journal = {El Palacio},
+pages = {146-165},
+title = {Some Plant Materials Used Medicinally and Otherwise by the Navaho Indians in the Chaco Canyon, New Mexico},
+volume = {56},
+year = {1956},
+}
+
+@article{c09,
+author = {Chamberlin, Ralph V.},
+journal = {American Anthropologist},
+pages = {27-40},
+title = {Some Plant Names of the Ute Indians},
+volume = {11},
+year = {1909},
+}
+
+@article{j68,
+author = {Jones, David E.},
+journal = {Papers in Anthropology},
+pages = {1-13},
+title = {Comanche Plant Medicine},
+volume = {9},
+year = {1968},
+}
+
+@article{teit28,
+author = {Teit, James A.},
+journal = {SI-BAE Annual Report},
+title = {The Salishan Tribes of the Western Plateaus},
+volume = {45},
+year = {1928},
+}
+
+@article{b41,
+author = {Beardsley, Gretchen},
+journal = {Papers of the Michigan Academy of Science, Arts and Letters},
+pages = {483-496},
+title = {Notes on Cree Medicines, Based on Collections Made by I. Cowie in 1892},
+volume = {28},
+year = {1941},
+}
+
+@book{j87,
+address = {Lethbridge, Alberta},
+author = {Johnston, Alex},
+publisher = {Lethbridge Historical Society},
+title = {Plants and the Blackfoot},
+year = {1987},
+}
+
+@article{cj40,
+author = {Carlson, Gustav G. and Volney H. Jones},
+journal = {Papers of the Michigan Academy of Science, Arts and Letters},
+pages = {517-542},
+title = {Some Notes on Uses of Plants by the Comanche Indians},
+volume = {25},
+year = {1940},
+}
+
+@book{b66,
+address = {Chicago},
+author = {Boas, Franz},
+publisher = {University of Chicago Press},
+title = {Kwakiutl Ethnography,},
+year = {1966},
+}
+
+@article{h46,
+author = {Holt, Catharine},
+journal = {Anthropological Records},
+note = {308},
+pages = {4},
+title = {Shasta Ethnography},
+volume = {3},
+year = {1946},
+}
+
+@article{r46,
+author = {Rousseau, Jacques},
+journal = {Archives de Folklore},
+pages = {60-71},
+title = {Notes Sur L'ethnobotanique D'anticosti},
+volume = {1},
+year = {1946},
+}
+
+@article{cb37,
+author = {Castetter, Edward F. and Willis H. Bell},
+journal = {University of New Mexico Bulletin},
+pages = {1-48},
+title = {Ethnobiological Studies in the American Southwest IV. The Aboriginal Utilization of the Tall Cacti in the American South},
+volume = {5},
+year = {1937},
+}
+
+@article{aa80,
+author = {Ager, Thomas A. and Lynn Price Ager},
+journal = {Arctic Anthropology},
+pages = {26-48},
+title = {Ethnobotany of The Eskimos of Nelson Island, Alaska},
+volume = {27},
+year = {1980},
+}
+
+@article{k32,
+author = {Kelly, Isabel T.},
+journal = {University of California Publications in American Archaeology and Ethnology},
+number = {3},
+pages = {67-210},
+title = {Ethnography of the Surprise Valley Paiute},
+volume = {31},
+year = {1932},
+}
+
+@article{g13ii,
+author = {Gilmore, Melvin R.},
+journal = {Nebraska State Historical Society Collections},
+pages = {314-57},
+title = {A Study in the Ethnobotany of the Omaha Indians},
+volume = {17},
+year = {1913},
+}
+
+@article{w22,
+author = {Wallis, Wilson D.},
+journal = {American Anthropologist},
+pages = {24-30},
+title = {Medicines Used by the Micmac Indians},
+volume = {24},
+year = {1922},
+}
+
+@mastersthesis{k90,
+author = {Kraft, Shelly Katheren},
+school = {University of North Dakota},
+title = {Recent Changes in the Ethnobotany of Standing Rock Indian Reservation},
+year = {1990},
+}
+
+@article{cb80,
+author = {Camazine, Scott and Robert A. Bye},
+journal = {Journal of Ethnopharmacology},
+pages = {365-388},
+title = {A Study Of The Medical Ethnobotany Of The Zuni Indians of New Mexico},
+volume = {2},
+year = {1980},
+}
+
+@book{n83,
+address = {Chicago},
+author = {Nelson, Richard K.},
+publisher = {The University of Chicago Press},
+title = {Make Prayers to the Raven--A Koyukon View of the Northern Forest},
+year = {1983},
+}
+
+@article{w62,
+author = {White, Leslie A.},
+journal = {SI-BAE Bulletin},
+title = {The Pueblo of Sia, New Mexico},
+year = {1962},
+}
+
+@book{cb42,
+address = {Albuquerque},
+author = {Castetter, Edward F. and Willis H. Bell},
+edition = {First},
+publisher = {University of New Mexico Press},
+title = {Pima and Papago Indian Agriculture},
+year = {1942},
+}
+
+@article{w77,
+author = {Witthoft, John},
+journal = {Journal of Cherokee Studies},
+number = {2},
+pages = {250-255},
+title = {Cherokee Indian Use of Potherbs},
+volume = {2},
+year = {1977},
+}
+
+@article{sk58,
+author = {Swartz, Jr., B. K.},
+journal = {Kroeber Anthropological Society Publications},
+pages = {67-84},
+title = {A Study of Material Aspects of Northeastern Maidu Basketry},
+volume = {19},
+year = {1958},
+}
+
+@article{k52,
+author = {Kirk, R. E.},
+journal = {Masterkey},
+pages = {76-86},
+title = {Panamint Basketry},
+volume = {26},
+year = {1952},
+}
+
+@article{spier28,
+author = {Spier, Leslie},
+journal = {Anthropological Papers of the American Museum of Natural History},
+number = {3},
+pages = {101-123, 284-285},
+title = {Havasupai Ethnography},
+volume = {29},
+year = {1928},
+}
+
+@article{ga88,
+author = {Gottesfeld, Leslie M. J. and Beverley Anderson},
+journal = {Journal of Ethnobiology},
+number = {1},
+pages = {13-33},
+title = {Gitksan Traditional Medicine: Herbs And Healing},
+volume = {8},
+year = {1988},
+}
+
+@article{g92,
+author = {Gottesfeld, Leslie M. J.},
+journal = {Economic Botany},
+number = {2},
+pages = {148-157},
+title = {The Importance of Bark Products in the Aboriginal Economies of Northwestern British Columbia, Canada},
+volume = {46},
+year = {1992},
+}
+
+@article{a39,
+author = {Anderson, J. P.},
+journal = {American Journal of Botany},
+pages = {714-16},
+title = {Plants Used by the Eskimo of the Northern Bering Sea and Arctic Regions of Alaska},
+volume = {26},
+year = {1939},
+}
+
+@book{b67,
+address = {Banning CA},
+author = {Barrows, David Prescott},
+note = {Originally Published 1900},
+publisher = {Malki Museum Press},
+title = {The Ethno-Botany of the Coahuilla Indians of Southern California},
+year = {1967},
+}
+
+@book{s69,
+address = {Washington, DC},
+author = {Swan, James Gilchrist},
+publisher = {Smithsonian Institution},
+title = {The Indians of Cape Flattery ...Washington Territory},
+year = {1869},
+}
+
+@article{j35,
+author = {Jenness, Diamond},
+journal = {National Museums of Canada Bulletin},
+title = {The Ojibwa Indians of Parry Island Their Social and Religious Life},
+volume = {78},
+year = {1935},
+comment = {Anthropological Series #17},
+}
+
+@article{p53,
+author = {Porsild, A. E.},
+journal = {Arctic},
+pages = {15-34},
+title = {Edible Plants of the Arctic},
+volume = {6},
+year = {1953},
+}
+
+@book{g74,
+address = {Ottawa},
+author = {Guedon, Marie-Francoise},
+note = {Mercury Series Number 9},
+publisher = {National Museums of Canada},
+title = {People Of Tetlin, Why Are You Singing?},
+year = {1974},
+}
+
+@article{s30,
+author = {Spier, Leslie},
+journal = {University of California Publications in American Archaeology and Ethnology},
+pages = {1-338},
+title = {Klamath Ethnography},
+volume = {30},
+year = {1930},
+}
+
+@article{h08,
+author = {Hrdlicka, Ales},
+journal = {SI-BAE Bulletin},
+pages = {1-427},
+title = {Physiological and Medical Observations Among the Indians of Southwestern United States and Northern Mexico},
+volume = {34},
+year = {1908},
+}
+
+@article{d13,
+author = {Densmore, Frances},
+journal = {SI-BAE Bulletin},
+title = {Chippewa Music-II},
+volume = {53},
+year = {1913},
+}
+
+@article{d32,
+author = {Densmore, Francis},
+journal = {SI-BAE Bulletin},
+title = {Menominee Music},
+volume = {102},
+year = {1932},
+}
+
+@article{l59,
+author = {Lantis, Margaret},
+journal = {Anthropological Papers of the University of Alaska},
+pages = {1-75},
+title = {Folk Medicine and Hygiene},
+volume = {8},
+year = {1959},
+}
+
+@article{giff33,
+author = {Gifford, E. W.},
+journal = {University of California Publications in American Archaeology and Ethnology},
+pages = {263-270},
+title = {The Cocopa},
+volume = {31},
+year = {1933},
+}
+
+@article{b08,
+author = {Barrett, S. A.},
+journal = {University of California Publications in American Archaeology and Ethnology},
+pages = {134-308},
+title = {Pomo Indian Basketry},
+volume = {7},
+year = {1908},
+}
+
+@book{g31,
+address = {Washington, DC},
+author = {Gifford, E. W.},
+publisher = {U.S. Government Printing Office},
+title = {The Kamia of Imperial Valley},
+year = {1931},
+}
+
+@article{ss43,
+author = {Sapir, Edward and Leslie Spier},
+journal = {Anthropological Records},
+number = {3},
+pages = {252-253},
+title = {Notes on the Culture of the Yana},
+volume = {3},
+year = {1943},
+}
+
+@article{sd51,
+author = {Speck, Frank G. and R. W. Dexter},
+journal = {Journal of the Washington Academy of Sciences},
+pages = {250-259},
+title = {Utilization of Animals and Plants by the Micmac Indians of New Brunswick},
+volume = {41},
+year = {1951},
+}
+
+@book{m03,
+address = {Honolulu},
+author = {Malo, David},
+publisher = {Hawaiian Gazette Co, Ltd},
+title = {Hawaiian Antiquities},
+year = {1903},
+}
+
+@article{n43,
+author = {Nequatewa, Edmund},
+journal = {Plateau},
+pages = {18-20},
+title = {Some Hopi Recipes for the Preparation of Wild Plant Foods},
+volume = {18},
+year = {1943},
+}
+
+@article{mckenn59,
+author = {McKennan, Robert A.},
+journal = {Yale University Publications in Anthropology},
+title = {The Upper Tanana Indians},
+volume = {55},
+year = {1959},
+}
+
+@book{c04,
+author = {Coville, Frederick V.},
+publisher = {Smithsonian Institution, US. National Museum},
+title = {Wokas, a Primitive Food of the Klamath Indians},
+year = {1904},
+}
+
+@article{o57,
+author = {Oswalt, W. H.},
+journal = {Anthropological Papers of the University of Alaska},
+pages = {17-36},
+title = {A Western Eskimo Ethnobotany},
+volume = {6},
+year = {1957},
+}
+
+@article{r48,
+author = {Rousseau, Jacques},
+journal = {Archives de Folklore},
+pages = {51-64},
+title = {Ethnobotanique Et Ethnozoologie Gaspesiennes},
+volume = {3},
+year = {1948},
+}
+
+@article{h65,
+author = {Howard, James},
+journal = {SI-BAE Bulletin},
+title = {The Ponca Tribe},
+volume = {195},
+year = {1965},
+}
+
+@article{d18,
+author = {Densmore, Frances},
+journal = {SI-BAE Bulletin},
+title = {Teton Sioux Music},
+volume = {61},
+year = {1918},
+}
+
+@article{j38,
+author = {Jones, Volney H.},
+journal = {El Palacio},
+pages = {41-53},
+title = {An Ancient Food Plant of the Southwest and Plateau Regions},
+volume = {44},
+year = {1938},
+}
+
+@article{t90,
+author = {Turner, Lucien M.},
+journal = {SI-BAE Annual Report},
+pages = {159-350},
+title = {Ethnology of the Ungava District, Hudson Bay Territory},
+volume = {11},
+year = {1890},
+}
+
+@book{ven40,
+author = {Veniamenov, I.},
+note = {Translated by HRAF},
+title = {Notes on the Islands in the Unalaska District, St. Petersburg},
+year = {1840},
+}
+
+@article{bt51,
+author = {Bank, I. I. and Theodore, P.},
+journal = {Botanical and Ethnobotanical Studies Papers, Michigan Academy of Science, Arts and Letters},
+title = {Botanical and Ethnobotanical Studies in the Aleutian Islands I. Aleutian Vegetation and Aleut Culture},
+year = {1951},
+}
+
+@article{b65,
+author = {Brugge, David M.},
+journal = {Kiva},
+number = {2},
+pages = {88-98},
+title = {Navajo Use of Agave},
+volume = {31},
+year = {1965},
+}
+
+@article{s65,
+author = {Stewart, Kenneth M.},
+journal = {Kiva},
+number = {1},
+pages = {46-53},
+title = {Mohave Indian Gathering of Wild Plants},
+volume = {31},
+year = {1965},
+}
+
+@article{hann86,
+author = {Hann, John H.},
+journal = {Southeastern Archaeology},
+number = {2},
+pages = {1-102},
+title = {The Use and Processing of Plants by Indians of Spanish Florida},
+volume = {5},
+year = {1986},
+}
+
+@article{b17,
+author = {Barrett, S. A.},
+journal = {Bulletin of the Public Museum of the City of Milwaukee},
+number = {1},
+pages = {1-52},
+title = {The Washoe Indians},
+volume = {2},
+year = {1917},
+}
+
+@article{k30,
+author = {Kelly, Isabel T.},
+journal = {University of Calfornia Publications in American Archaeology and Ethnology},
+pages = {421-444},
+title = {Yuki Basketry},
+volume = {24},
+year = {1930},
+}
+
+@article{r34,
+author = {Reagan, Albert},
+journal = {Washington Historical Quarterly},
+pages = {133-37},
+title = {Various Uses of Plants by West Coast Indians},
+volume = {25},
+year = {1934},
+}
+
+@article{g32,
+author = {Gifford, E. W.},
+journal = {University of California Publications in American Archaeology and Ethnology},
+pages = {177-252},
+title = {The Southeastern Yavapai},
+volume = {29},
+year = {1932},
+}
+
+@article{b36,
+author = {Bradley, Will T.},
+journal = {Journal of the American Pharmaceutical Association},
+number = {2},
+pages = {138-147},
+title = {Medical Practices of the New England Aborigines},
+volume = {25},
+year = {1936},
+}
+
+@article{r23,
+author = {Radin, Paul},
+journal = {SI-BAE Annual Report},
+title = {The Winnebago Tribe},
+volume = {37},
+year = {1923},
+}
+
+@article{w89,
+author = {Willoughby, C.},
+journal = {Smithsonian Institution Annual Report for 1886},
+title = {Indians of the Quinaielt Agency, Washington Territory},
+year = {1889},
+}
+
+@book{p37,
+author = {Porsild, A. E.},
+publisher = {Canada Department of Mines and Resources, National Museum of Canada},
+title = {Edible Roots and Berries of Northern Canada},
+year = {1937},
+}
+
+@article{m40,
+author = {Mandelbaum, David G.},
+journal = {Anthropological Papers of the American Museum of Natural History},
+pages = {202-203},
+title = {The Plains Cree},
+volume = {37},
+year = {1940},
+}

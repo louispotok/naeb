@@ -14,6 +14,7 @@ COL_NAMES = {
             ,'use_category'
             ,'use_subcategory'
             ,'source'
+            ,'rawsource'
             ,'pageno'
             ,'notes'
             ,'_species_usda_code'
@@ -102,9 +103,11 @@ def extract_uses(soup, id_):
     body = soup.body
 
     doc_by = body.find('strong').next_sibling.next_sibling.strip()
-    spl = doc_by.split('page ')
+    spltstring = ', page '
+    spl = doc_by.split(spltstring)
     pageno = spl[-1]
-    source = 'page '.join(spl[:-1])
+    source = spltstring.join(spl[:-1])
+    rawsource = doc_by
     
     sciname = search_and_get_first_group('Scientific name: (.*)', body)
     tribe_name = search_and_get_first_group('Native American Tribe: (.*)', body)
@@ -123,6 +126,7 @@ def extract_uses(soup, id_):
             'use_category': use_cat,
             'use_subcategory': use_subcat,
             'source': source,
+            'rawsource': rawsource,
             'pageno': pageno,
             'notes': notes,
             '_species_usda_code': usda_code,
