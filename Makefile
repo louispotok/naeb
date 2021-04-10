@@ -29,5 +29,8 @@ clean:
 	find . -type f -name "*.py[co]" -delete
 	find . -type d -name "__pycache__" -delete
 
-serve naeb.sqlite3:
+publish: naeb.sqlite3
 	. venv/bin/activate; datasette publish cloudrun naeb.sqlite3 --template-dir=templates/ --static static:static/ --service=naeb-clone; deactivate
+
+serve: naeb.sqlite3
+	. venv/bin/activate; datasette serve naeb.sqlite3 --template-dir=templates/ --static static:static/
