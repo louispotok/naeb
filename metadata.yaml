@@ -1,0 +1,8 @@
+source: North American Ethnobotany Database
+source_url: http://naeb.brit.org/
+
+databases:
+        naeb:
+                tables:
+                        sources:
+                                label_column: refcode

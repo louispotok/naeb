@@ -29,7 +29,7 @@ clean:
 	find . -type f -name "*.py[co]" -delete
 	find . -type d -name "__pycache__" -delete
 
-DATASETTE_ARGS=-i naeb.sqlite3 --template-dir=templates/ --static static:static/
+DATASETTE_ARGS=-i naeb.sqlite3 --template-dir=templates/ --static static:static/ --metadata metadata.yaml
 
 publish: naeb.sqlite3
 	. venv/bin/activate && datasette publish cloudrun $(DATASETTE_ARGS) --service=naeb-clone && deactivate

@@ -14,9 +14,14 @@ This site has no affiliation with the original authors, it is provided in the ho
 The original creators and maintainers of the NAEB database deserves all credit for this work. I hope only to provide a slight improvement in usability.
 </p>
 <p>
-Unlike the official NAEB site, this website provides full access to the underlying data.
-In particular, it allows access to the normalized metadata: categories and subcategories of use, and references.
-It also provides download capabilities. 
+Unlike the official NAEB site, this website provides <strong>full query and download access</strong> to the underlying data. For example, you can see the normalized metadata such as references and categories and subcategories of use. Hopefully this will allow more detailed exploration of the data, as well as joining with other datasets like those maintained by <a href="https://native-land.ca">Native Land Digital</a>.
+
+Two quick examples:</p>
+<ol style="list-style: decimal; display: block; padding-inline-start: 40px;">
+        <li><a href="/naeb/uses?use_subcategory=101">All documented uses of plants as musical instruments</a>.</li>
+        <li>For each tribe, what sources provide <a href="/naeb?sql=select%0D%0A++tribes.name+as+tribe_name%2C%0D%0A++count(1)+as+number_uses%2C%0D%0A++sources.fulltext+as+source_name%0D%0Afrom%0D%0A++sources%0D%0A++join+uses+on+sources.id+%3D+uses.source%0D%0A++join+tribes+on+uses.tribe+%3D+tribes.id%0D%0Agroup+by%0D%0A++sources.fulltext%2C%0D%0A++tribes.name%0D%0Aorder+by%0D%0A++tribe_name%2C%0D%0A++number_uses+desc">the most documented uses?</a></li>
+</ol>
+<p>
 You can download the full database as a <a href="naeb.db">sqlite3 database file</a> , or a <a href="static/naeb.tar.gz">zipfile of all the csv files</a>. The full reference list, in bibtex format, can be downloaded <a href="static/canonical-sources.txt">here</a>.
 </p>
 

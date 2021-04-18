@@ -62,14 +62,14 @@ CREATE TABLE IF NOT EXISTS uses (
         species INTEGER NOT NULL,
         tribe INTEGER NOT NULL,
         source INTEGER NOT NULL,
-        rawsource TEXT NOT NULL,
         pageno TEXT NOT NULL,
         use_category INTEGER,
         use_subcategory INTEGER,
         notes TEXT,
+        rawsource TEXT NOT NULL,
         FOREIGN KEY(use_category) REFERENCES use_categories(id),
         FOREIGN KEY(use_subcategory) REFERENCES use_subcategories(id),
-        FOREIGN KEY(tribe) REFERENCES tribe(id),
+        FOREIGN KEY(tribe) REFERENCES tribes(id),
         FOREIGN KEY(species) REFERENCES species(id),
         FOREIGN KEY(source) REFERENCES sources(id)
         );
