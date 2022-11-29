@@ -1,8 +1,15 @@
-source: North American Ethnobotany Database
+title: Native American Ethnobotany (NAEB)
+description: A Database of Foods, Drugs, Dyes and Fibers of Native American Peoples, Derived from Plants.
+source: Native American Ethnobotany Database
 source_url: http://naeb.brit.org/
+about: NAEB
+about_url: https://louispotok.com/naeb
 
 databases:
         naeb:
                 tables:
                         sources:
                                 label_column: refcode
+
+extra_css_urls: ["/static/styles.css"]
+extra_js_urls: ["/static/matomo.js"]

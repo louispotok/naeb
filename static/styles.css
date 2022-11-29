@@ -1,0 +1,17 @@
+ol {
+    list-style: decimal;
+    display: block;
+    padding-inline-start: 40px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+code {
+    background-color: #e0e0e0;
+    border-radius: 0.5em;
+    padding: 2px 4px;
+    white-space: nowrap;
+}

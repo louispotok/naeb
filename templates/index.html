@@ -3,34 +3,71 @@
 {% block content %}
 <h1>Native American Ethnobotany</h1>
 <p>
-The <a href="http://naeb.brit.org/">Native American Ethnobotany (NAEB) database</a> is a treasure. It compiles 45,000 uses of 4000 different plants by 300 Native American Tribes, as recorded in 200 distinct sources.
-As <a href="http://naeb.brit.org/about">described on their site</a>, this database was built over decades, starting in the 1970s, spearheaded by the work of <a href="https://en.wikipedia.org/wiki/Daniel_Moerman">Daniel Moerman</a>.
+    This site is a mirror of the <a href="http://naeb.brit.org/">original Native American Ethnobotany (NAEB) database</a>. The  <a href="/naeb">database</a> compiles 45,000 uses of 4000 different plants by 300 Native American Tribes, as recorded in 200 distinct sources.
+It was <a href="http://naeb.brit.org/about">built over decades</a>, starting in the 1970s, spearheaded by the work of <a href="https://en.wikipedia.org/wiki/Daniel_Moerman">Daniel Moerman</a>.
 You may be interested in Professor Moerman's book <a href="https://www.amazon.com/Native-American-Ethnobotany-Daniel-Moerman/dp/0881924539">Native American Ethnobotany</a>.
 </p>
+
 <h2>About this site</h2>
-<p>This site provides an alternate <strong>unauthorized</strong> interface on the NAEB database.
-It has been reconstructed from the publicly available NAEB site, and no guarantees are made as to its accuracy.
-This site has no affiliation with the original authors, it is provided in the hope of being useful to future researchers.
-The original creators and maintainers of the NAEB database deserves all credit for this work. I hope only to provide a slight improvement in usability.
+<p>
+    This site is <strong>unauthorized</strong> and has no affiliation with the original authors. It has been reconstructed from the publicly available NAEB site, and no guarantees are made as to its accuracy.
+    It is provided in the interest of open science and the hope of being useful to future researchers.
+    The original creators and maintainers of the NAEB database deserves all credit for this work. I hope only to provide a slight improvement in usability.
 </p>
 <p>
-Unlike the official NAEB site, this website provides <strong>full query and download access</strong> to the underlying data. For example, you can see the normalized metadata such as references and categories and subcategories of use. Hopefully this will allow more detailed exploration of the data, as well as joining with other datasets like those maintained by <a href="https://native-land.ca">Native Land Digital</a>.
+    Unlike the official NAEB site, this website provides <strong>full query and download access</strong> to the underlying data. I have also normalized the metadata such as references, categories, and subcategories of use. Hopefully this will allow more detailed exploration of the data, as well as joining with other datasets like those maintained by <a href="https://native-land.ca">Native Land Digital</a>.</p>
+<p>
+    You can read more about <a href="https://louispotok.com/naeb">my motivation</a> if you're curious.
+</p>
+<h2>License</h2>
+<p>
+    The original data does not seem to have an affiliated license. 
+    To the extent that I have any rights to this work, I dedicate them to the public domain under a <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 license</a>. 
+    You will have to decide for yourself what you are comfortable doing with this data.
+</p>
 
-Two quick examples:</p>
-<ol style="list-style: decimal; display: block; padding-inline-start: 40px;">
-        <li><a href="/naeb/uses?use_subcategory=101">All documented uses of plants as musical instruments</a>.</li>
-        <li>For each tribe, what sources provide <a href="/naeb?sql=select%0D%0A++tribes.name+as+tribe_name%2C%0D%0A++count(1)+as+number_uses%2C%0D%0A++sources.fulltext+as+source_name%0D%0Afrom%0D%0A++sources%0D%0A++join+uses+on+sources.id+%3D+uses.source%0D%0A++join+tribes+on+uses.tribe+%3D+tribes.id%0D%0Agroup+by%0D%0A++sources.fulltext%2C%0D%0A++tribes.name%0D%0Aorder+by%0D%0A++tribe_name%2C%0D%0A++number_uses+desc">the most documented uses?</a></li>
+<h2>About the data</h2>
+<p>There are 6 tables:
+
+<ol>
+    <li><code><a href="/naeb/uses">uses</a></code> the main table you are probably interested in. Each row here represents a single use for a single plant by a single tribe, as cited by a single source.</li>
+    <li><code><a href="/naeb/species">species</a></code> each row a species of plant, including scientific name, common names, and a USDA code for the species.</li>
+    <li><code><a href="/naeb/tribes">tribes</a></code> each row a tribe, with no metadata other than a name.</li>
+    <li><code><a href="/naeb/use_categories">use_categories</a></code> five rows, each a high-level use (drug, food, fiber, dye, other).</li>
+    <li><code><a href="/naeb/use_subcategories">use_subcategories</a></code> each row a more fine-grained set of uses.</li>
+    <li><code><a href="/naeb/sources">sources</a></code> each source document, where rows correspond 1-1 with entries in <a href="static/canonical-sources.txt">the full bibtex bibliography</a>. The <code>refcode</code> column is the bibtex citation-key.</li>
 </ol>
-<p>
-You can download the full database as a <a href="naeb.db">sqlite3 database file</a> , or a <a href="static/naeb.tar.gz">zipfile of all the csv files</a>. The full reference list, in bibtex format, can be downloaded <a href="static/canonical-sources.txt">here</a>.
 </p>
 
 <p>
-Many thanks to the wonderful <a href="https://datasette.io/">Datasette</a> tool which powers this website.
-Thanks are also due to the online <a href="https://text2bib.economics.utoronto.ca/index.php/index">text2bib</a> tool, which I used to generate a bibtex file from the original sources, and to the <a href="https://github.com/aclements/biblib">biblib library</a> which is used to interact with the bibtex file.
+You can access the full database in three ways:
+<ol>
+    <li>the <a href="/naeb">online interface</a></li>
+    <li>a <a href="naeb.db">sqlite3 database file</a> (12 MB)</li>
+    <li>a <a href="static/naeb.tar.gz">zipfile of all the csv files</a> (1.7 MB). </li>
+</ol>
+</p><p>
+    The full reference list, in bibtex format, can be downloaded <a href="static/canonical-sources.txt">here</a>.
 </p>
+
+<p>Two quick examples of what's possible:</p>
+<ol>
+        <li><a href="/naeb/uses?use_subcategory=101">All documented uses of plants as musical instruments</a>.</li>
+        <li>For each tribe, which source provides <a href="/naeb?sql=select%0D%0A++tribes.name+as+tribe_name%2C%0D%0A++count(1)+as+number_uses%2C%0D%0A++sources.fulltext+as+source_name%0D%0Afrom%0D%0A++sources%0D%0A++join+uses+on+sources.id+%3D+uses.source%0D%0A++join+tribes+on+uses.tribe+%3D+tribes.id%0D%0Agroup+by%0D%0A++sources.fulltext%2C%0D%0A++tribes.name%0D%0Aorder+by%0D%0A++tribe_name%2C%0D%0A++number_uses+desc">the highest number of uses?</a></li>
+</ol>
+
+<h2>Thanks</h2>
+<ol>
+    <li>The wonderful <a href="https://datasette.io/">Datasette</a> tool which powers this website.</li>
+    <li>The online <a href="https://text2bib.economics.utoronto.ca/index.php/index">text2bib</a> tool, which I used to generate a bibtex file from the original sources.</li>
+    <li>The <a href="https://github.com/aclements/biblib">biblib library</a> which is used to interact with the bibtex file.</li>
+    <li>The original researchers and scholars who actually gathered this information, including Daniel Moerman and his collaborators, and the funders who made this work possible.</li>
+    <li>Most of all, to the countless and unnameable individuals who figured out the uses for all these plants over millenia of human existence!</li>
+</ol>
+
 <p>
-For comments or questions, please submit <a href="https://forms.gle/B1Hp9hSKdiUEnjdX7">this google form</a>. I'd love to know how you're using this and how it can be more useful.
+You can find <a href="https://louispotok.com/naeb">more info here</a>, including my email address. I'd love to know how you're using this and how it can be more useful, or any other comments or questions.
+    
 </p>
 {{ super() }}
 {% endblock %}
