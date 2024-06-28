@@ -52,7 +52,7 @@ You can access the full database in three ways:
 
 <p>Two quick examples of what's possible:</p>
 <ol>
-        <li><a href="/naeb/uses?use_subcategory=101">All documented uses of plants as musical instruments</a>.</li>
+        <li><a href="/naeb/uses?use_subcategory=146">All documented uses of plants as musical instruments</a>.</li>
         <li>For each tribe, which source provides <a href="/naeb?sql=select%0D%0A++tribes.name+as+tribe_name%2C%0D%0A++count(1)+as+number_uses%2C%0D%0A++sources.fulltext+as+source_name%0D%0Afrom%0D%0A++sources%0D%0A++join+uses+on+sources.id+%3D+uses.source%0D%0A++join+tribes+on+uses.tribe+%3D+tribes.id%0D%0Agroup+by%0D%0A++sources.fulltext%2C%0D%0A++tribes.name%0D%0Aorder+by%0D%0A++tribe_name%2C%0D%0A++number_uses+desc">the highest number of uses?</a></li>
 </ol>
 
