@@ -34,7 +34,7 @@ DATASETTE_ARGS=--template-dir=templates/ --static static:static/ --metadata meta
 publish: naeb.sqlite3
 	# not sure why this doesn't need immutable mode
 	# https://github.com/simonw/datasette/issues/1301
-	. venv/bin/activate && datasette publish cloudrun naeb.sqlite3 $(DATASETTE_ARGS) --service=naeb-clone && deactivate
+	. venv/bin/activate && datasette publish cloudrun naeb.sqlite3 $(DATASETTE_ARGS) --service=naeb-clone --install=datasette-block-robots && deactivate
 
 serve: naeb.sqlite3
 	. venv/bin/activate && datasette serve -i naeb.sqlite3 $(DATASETTE_ARGS)
