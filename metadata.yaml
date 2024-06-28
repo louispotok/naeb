@@ -12,4 +12,3 @@ databases:
                                 label_column: refcode
 
 extra_css_urls: ["/static/styles.css"]
-extra_js_urls: ["/static/matomo.js"]
