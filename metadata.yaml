@@ -12,3 +12,7 @@ databases:
                                 label_column: refcode
 
 extra_css_urls: ["/static/styles.css"]
+
+plugins:
+        datasette-block-robots:
+                allow_only_index: true
