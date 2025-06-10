@@ -1,0 +1,35 @@
+{% extends "default:base.html" %}
+{% block content %}
+
+<h1>Motivation</h1>
+
+<p>
+    <strong>tldr:</strong> Ethnobotany is cool and information wants to be free, especially when the public paid for it.
+</p>
+<p>
+    Plants are a fundamental building block of all human societies. Almost everything we eat either is a plant, or eats plants. Plants also synthesize an incredibly broad range of chemicals and can be used in an enormous number of ways: medicine, materials of all kinds, and for broader cultural purposes.</p>
+<p>
+    However, these uses are not always obvious. It can take experimentation and learning on timelines beyond a single human life to uncover the secrets of a particular plant, particularly when a complicated set of processing steps is required:
+</p>
+<p>
+  <blockquote>
+    In the Americas, where manioc was first domesticated, societies who have relied on bitter varieties for thousands of years show no evidence of chronic cyanide poisoning. In the Colombian Amazon, for example, indigenous Tukanoans use a multistep, multiday processing technique that involves scraping, grating, and finally washing the roots in order to separate the fiber, starch, and liquid. Once separated, the liquid is boiled into a beverage, but the fiber and starch must then sit for two more days, when they can then be baked and eaten.
+  </blockquote>
+</p>
+<p>-- Joseph Henrich, The Secret of Our Success, as <a href="https://slatestarcodex.com/2019/06/04/book-review-the-secret-of-our-success/">quoted by Scott Alexander</a>.</p>
+<p>Native American peoples uncovered thousands of such uses, and once lost these are not trivial for Western science to rediscover. It is a tragedy that these cultures were destroyed and so much of their knowledge lost, but some of it was recorded by anthropologists. </p>
+<h2 id="the-native-american-ethnobotany-project">The Native American Ethnobotany Project</h2>
+<p>Starting in the 1970&#39;s, Daniel Moerman and collaborators began compiling these records, and ended up creating a database with information from 206 distinct sources. The project was funded by the National Endowment for the Humanities, the National Science Foundation, and the University of Michigan-Dearborn. This database is <strong>magnificent</strong>.</p>
+<p>Professor Moerman publishes a web version of the database <a href="http://naeb.brit.org/">here</a>, a great start for others to build on. However, it does not provide full download or unlimited query access.</p>
+<p>So I scraped the NAEB database and <a href="https://naeb.louispotok.com/">published it</a> using the wonderful <a href="https://datasette.io/">Datasette</a> tool.</p>
+<h2 id="why-i-did-this">Why I did this</h2>
+<p>This data should be open. It was publicly funded years ago, it belongs to the people, and it represents too much human labor to risk its disappearance.</p>
+<p>My first full-time job out of college was at the Center for Population Economics, led by Economics Nobel Laureate Bob Fogel. Fogel was at the time in his 90&#39;s, and the CPE had been around for decades, performing distinctive research in economic history. (Example: <a href="https://www.nber.org/books-and-chapters/heroes-and-cowards-social-face-war">Heros and Cowards</a> by Costa and Kahn.)
+    The dataset they gathered was unique and highly valuable: longitudinal health and economic records for every soldier who fought in the Union Army, the earliest such dataset in existence. Union Army veterans were eligible for pensions, but were required to appear before a board of doctors every few years in order to assess their physical condition and set the appropriate amount of their pension. We tracked these men across their life cycle, as they changed jobs, moved across the country, married and had children, got sick, and eventually died. We were able to link those records to census data, to block-level disease reporting in American cities, to the introduction of sewers and roads. </p>
+<p>I left in 2012 and Fogel died in June 2013. The Wayback Machine&#39;s <a href="https://web.archive.org/web/20140116023258/http://www.cpe.uchicago.edu/">last snapshot</a> of the CPE homepage is dated January 16, 2014. Where did the data go? Was it gone forever? Buried on a few hard drives, as a few researchers finished their papers and then forgot about it? Several times throughout the intervening years I went looking for any trace of this data, to no avail. The NBER <a href="https://www.nber.org/programs-projects/projects-and-centers/Early%20Indicators%20of%20Later%20Work%20Levels,%20Disease%20and%20Death">hosts it now</a> in some form, although it looks like this page only went up in early 2022. (As measured by <a href="https://web.archive.org/web/20220000000000*/https://www.nber.org/programs-projects/projects-and-centers/Early%20Indicators%20of%20Later%20Work%20Levels%2C%20Disease%20and%20Death">the first Wayback Machine capture</a>, admittedly imperfect.)</p>
+<p>It was inconcievable to me that all this work was gone, that the data needed to check and build on dozens of papers and books was no longer available to the wider world. Fogel won a Nobel for this work! And the underlying observations were allowed to disappear?</p>
+<h2 id="email-me-">Email me!</h2>
+<p>I hope you find this interesting and useful. I would love to hear from you about how you&#39;re using it, anything cool you find, or any questions or suggestions. You can reach me <a href="mailto:louispotok@gmail.com">by email</a> or see more about me at <a href="https://louispotok.com">my site</a>.</p>
+
+{{ super() }}
+{% endblock %}
