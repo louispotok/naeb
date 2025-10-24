@@ -4,3 +4,4 @@ data/*
 naeb.tar.gz
 .unzipped
 *.sqlite3
+.tool-versions
