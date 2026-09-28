@@ -5,3 +5,16 @@
 <script data-goatcounter="https://finback.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <meta property="og:url" content="https://naeb.louispotok.com">
 {% endblock %}
+
+{% block messages %}
+<aside class="memorial-banner" aria-label="In memoriam">
+    <p><strong>In memory of Professor Daniel Moerman (1941–2026).</strong></p>
+    <p>
+        Read more about his inspirational life and work <a href="https://ethnopharmacology.org/news/in-memory-of-daniel-moerman-former-president-of-ise/">here</a>
+            <a href="https://www.herbalgram.org/resources/herbalegram/volumes/volume-23/issue-4-april/news-and-features-3/dan-moerman-obit/">here</a> or 
+<a href="https://record.umich.edu/articles/obituary-daniel-ellis-moerman/">here</a>.
+        </ol>
+    </p>
+</aside>
+{{ super() }}
+{% endblock %}

@@ -1,3 +1,26 @@
+.memorial-banner {
+    margin: 0 0 1.5rem;
+    padding: 0.85rem 1rem;
+    border-left: 3px solid #60735c;
+    background-color: #f0f3ed;
+    color: #34432f;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.memorial-banner p {
+    margin: 0;
+}
+
+.memorial-banner .memorial-links {
+    margin-top: 0.3rem;
+}
+
+.memorial-banner a {
+    color: #344f32;
+    text-decoration: underline;
+}
+
 ol {
     list-style: decimal;
     display: block;
