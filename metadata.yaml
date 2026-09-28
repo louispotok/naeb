@@ -11,7 +11,7 @@ databases:
                         sources:
                                 label_column: refcode
 
-extra_css_urls: ["/static/styles.css"]
+extra_css_urls: ["/static/styles.css?v=20260928-memorial"]
 
 plugins:
         datasette-block-robots:
